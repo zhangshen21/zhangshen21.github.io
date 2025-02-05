@@ -1,9 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 27 Oct 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>构造</title><link>https://example.org/docs/sketch/%E6%9E%84%E9%80%A0/</link><pubDate>Mon, 27 Oct 2014 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/%E6%9E%84%E9%80%A0/</guid><description>&lt;h3 id="技术">
- 技术
- &lt;a class="anchor" href="#%e6%8a%80%e6%9c%af">#&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>25春节</title><link>https://example.org/docs/sketch/25%E6%98%A5%E8%8A%82/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/25%E6%98%A5%E8%8A%82/</guid><description>&lt;h3 id="几件事情">
+ 几件事情
+ &lt;a class="anchor" href="#%e5%87%a0%e4%bb%b6%e4%ba%8b%e6%83%85">#&lt;/a>
 &lt;/h3>
-&lt;p>当太多外在的信息干扰了我们对自己、对世界的理解，我们可以尝试构建出自己的一个小世界，用自己的方式重新观察和理解世界。&lt;br>
-现在的我们，已经有了不少的工具，这足够我们开始新的探索和理解了。&lt;/p></description></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/carcaptor/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/carcaptor/</guid><description>&lt;h2 id="carcaptorhttpsspacebilibilicom1378987867spm_id_from33399900">
+&lt;p>在一年里少有的寒假休息时间，我没有和放假前想的那样，能用很多时间做一些自己喜欢的事情，那些在时间宝贵的日子里吸引着我的事情没有在寒假里延续ta们的吸引。我突然发现，“我不知道做些什么好”。&lt;br>
+在信息充裕的当下，我觉得至少有几件事情可以理解：\&lt;/p>
+&lt;ol>
+&lt;li>生活当然要有目标，但生活本身是由实现目标的过程撑起来的，我们生活在过程里，过程中的苦辣酸甜才成为生活本身\&lt;/li>
+&lt;li>“知之者不如好之者，好之者不如乐之者”，是发乎内心的乐趣领着我们往前走，抵抗生活里的琐碎，内心的乐趣如同大数定律里的变量回归后的均值\&lt;/li>
+&lt;li>实践好过空想\&lt;/li>
+&lt;li>生活值得审视，借助规律和科学方法，我们可以找到一些更为宝贵的价值，它们关乎生命真正的体验。\&lt;/li>
+&lt;/ol>
+&lt;h3 id="新的一年">
+ 新的一年
+ &lt;a class="anchor" href="#%e6%96%b0%e7%9a%84%e4%b8%80%e5%b9%b4">#&lt;/a>
+&lt;/h3>
+&lt;p>生活在于乐趣，乐趣来自实践，以我们的春节为单位，我还是希望自己能够每一个单位里尽可能地实践、在实践过程里理解生活。&lt;br>
+至少我想看到，每段时间都可以在我身上留下痕迹，这是生活最高的希望，也是生活最低的要求。&lt;/p></description></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/carcaptor/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/carcaptor/</guid><description>&lt;h2 id="carcaptorhttpsspacebilibilicom1378987867spm_id_from33399900">
  &lt;a href="https://space.bilibili.com/1378987867/?spm_id_from=333.999.0.0">CarCaptor&lt;/a>
  &lt;a class="anchor" href="#carcaptorhttpsspacebilibilicom1378987867spm_id_from33399900">#&lt;/a>
 &lt;/h2>
@@ -15,7 +27,8 @@
  Some points
  &lt;a class="anchor" href="#some-points">#&lt;/a>
 &lt;/h2>
-&lt;pre>&lt;code>以汽车的角度看世界&lt;/code>&lt;/pre></description></item><item><title>WaveshareBot</title><link>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/wavesharebot/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/wavesharebot/</guid><description>&lt;h1 id="wavesharebot攻防实验">
+&lt;pre>&lt;code>以汽车的角度看世界
+&lt;/code>&lt;/pre></description></item><item><title>WaveshareBot</title><link>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/wavesharebot/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/wavesharebot/</guid><description>&lt;h1 id="wavesharebot攻防实验">
  WaveshareBot攻防实验
  &lt;a class="anchor" href="#wavesharebot%e6%94%bb%e9%98%b2%e5%ae%9e%e9%aa%8c">#&lt;/a>
 &lt;/h1>
@@ -23,7 +36,7 @@
  基础设备
  &lt;a class="anchor" href="#%e5%9f%ba%e7%a1%80%e8%ae%be%e5%a4%87">#&lt;/a>
 &lt;/h2>
-&lt;p>&lt;img src="https://example.org/image/2.png" alt="alt text" />&lt;/p></description></item><item><title>智能算法安全</title><link>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E5%AE%89%E5%85%A8/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E5%AE%89%E5%85%A8/</guid><description/></item><item><title>无意击发</title><link>https://example.org/posts/%E6%97%A0%E6%84%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%97%A0%E6%84%8F/</guid><description>&lt;p>无意击发 &lt;br>
+&lt;p>&lt;img src="https://example.org/image/2.png" alt="alt text" />&lt;/p></description></item><item><title>智能算法安全</title><link>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E5%AE%89%E5%85%A8/</link><pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/24%E7%A7%8B%E5%86%AC/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E5%AE%89%E5%85%A8/</guid><description/></item><item><title>大道理</title><link>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</guid><description/></item><item><title>无意击发</title><link>https://example.org/posts/%E6%97%A0%E6%84%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%97%A0%E6%84%8F/</guid><description>&lt;p>无意击发 &lt;br>
 有时我觉得，假使再小的事，如果认真去看，认真去想，你也可以从里面看到很多东西，正是这些最细微的东西，会反复以某种形式出现在我们未来的生活中。&lt;br>
 大三的手枪射击课上，带上最后的考核，我们总共实弹射击了四次，前面每次射击有两轮，每轮五发，不出意外的话，可以拿到十个弹眼，至少，也有五六个。&lt;br>
 课上教员讲：有意瞄准，无意击发。我看着年纪挺大的教员，感觉一切都还是手拿把捏，……直到上场。上场后才发现，右手抖动得眼睛根本瞄不准.&lt;br>
@@ -32,4 +45,4 @@
 最后考核上，我出乎意料地很快打完了五发，在焦虑和平和混杂的情绪中，等待着拿下自己的靶纸，三发十环、两发九环，四十八环。&lt;br>
 这种“失败—努力—思考—成功”的模式怎么想都是让人振奋的，考核完的几天里，我都感觉沉浸在喜悦中，这种喜悦也支持着我在最忙的大三学年中一点点排解各种负面情绪。&lt;br>
 在之后的很多事情里，我才后知后觉到，“有意瞄准，无意击发”可能就是生活里很多事情的剪影。平常生活里，我们更多地在瞄准而非击发，如果为了最后的那一瞬击发而动作变形，弹着点大概率就会偏离瞄准点。&lt;br>
-写下这些文字时，远方枪声又起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是始终注视着三点一线，在瞄准中稍稍用力在右手食指上。过了不知道多久，你听到砰一声响，虽然你看不到，但心里已经隐约明白，这会儿靶纸中间，已经多了一个眼儿了。&lt;/p></description></item></channel></rss>
+写下这些时，不远处枪声再起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是注视着三点一线，在瞄准中稍用力在右手食指上。过了不知道多久，听到砰一声响，虽然看不到，但心里已隐约明白，靶纸中间已经多了一个眼儿了。&lt;/p></description></item></channel></rss>
