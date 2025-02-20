@@ -9,7 +9,6 @@
 &lt;li>本质理解 长期积累&lt;/li>
 &lt;li>悦纳一切&lt;/li>
 &lt;/ul>
-&lt;hr>
 &lt;h3 id="references">
  References
  &lt;a class="anchor" href="#references">#&lt;/a>
@@ -18,7 +17,20 @@
 &lt;a href="https://www.zhihu.com/question/11463857483/answer/99091375822">袁牧 - 知乎 &lt;/a>&lt;br>
 &lt;a href="https://www.zhihu.com/question/444852842/answer/1754858002">布衣三尺剑 - 知乎&lt;/a>&lt;br>
 &lt;a href="https://www.zhihu.com/question/22988684/answer/239622153">橘猫太子 - 知乎&lt;/a>&lt;br>
-&lt;a href="https://www.zhihu.com/question/667475290/answer/6888881241">林为珮 - 知乎&lt;/a>&lt;/p></description></item><item><title>ai概念</title><link>https://example.org/docs/security/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E5%AE%89%E5%85%A8/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E5%AE%89%E5%85%A8/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/carcaptor/</guid><description>&lt;h3 id="carcaptor">
+&lt;a href="https://www.zhihu.com/question/667475290/answer/6888881241">林为珮 - 知乎&lt;/a>&lt;/p>
+&lt;hr></description></item><item><title>时序数据异常检测</title><link>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</guid><description>&lt;h4 id="时序数据的处理">
+ 时序数据的处理
+ &lt;a class="anchor" href="#%e6%97%b6%e5%ba%8f%e6%95%b0%e6%8d%ae%e7%9a%84%e5%a4%84%e7%90%86">#&lt;/a>
+&lt;/h4>
+&lt;blockquote>
+&lt;p>df = pd.read_csv(&amp;lsquo;zhouqi.csv&amp;rsquo;, parse_dates=[&amp;lsquo;Date&amp;rsquo;])&lt;br>
+处理zhouqi.csv，将Date列解析为日期格式&lt;br>
+df.set_index(&amp;lsquo;Date&amp;rsquo;, inplace=True)&lt;br>
+将Date列设置为索引，并设置在原dataframe上处理，不新建&lt;br>
+df[&amp;lsquo;Month&amp;rsquo;] = df.index.to_period(&amp;lsquo;M&amp;rsquo;)&lt;br>
+增加一列月份值，由原索引（即日期索引）转化而来&lt;br>
+grouped = df.groupby(&amp;lsquo;Month&amp;rsquo;)&lt;br>
+按月份值对数据进行分组&lt;/p>&lt;/blockquote></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/carcaptor/</guid><description>&lt;h3 id="carcaptor">
  CarCaptor
  &lt;a class="anchor" href="#carcaptor">#&lt;/a>
 &lt;/h3>
@@ -78,4 +90,60 @@
 &lt;p>最后考核上，我出乎意料地很快打完了五发，在焦虑和平和混杂的情绪中，等待着拿下自己的靶纸，三发十环、两发九环，四十八环。&lt;/p>
 &lt;p>这种“失败—努力—思考—成功”的模式怎么想都是让人振奋的，考核完的几天里，我都感觉沉浸在喜悦中，这种喜悦也支持着我在最忙的大三学年中一点点排解各种负面情绪。&lt;/p>
 &lt;p>在之后的很多事情里，我才后知后觉到，“有意瞄准，无意击发”可能就是生活里很多事情的剪影。平常生活里，我们更多地在瞄准而非击发，如果为了最后的那一瞬击发而动作变形，弹着点大概率就会偏离瞄准点。&lt;/p>
-&lt;p>写下这些时，不远处枪声再起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是注视着三点一线，在瞄准中稍用力在右手食指上。过了不知道多久，听到砰一声响，虽然看不到，但心里已隐约明白，靶纸中间已经多了一个眼儿了。&lt;/p></description></item></channel></rss>
+&lt;p>写下这些时，不远处枪声再起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是注视着三点一线，在瞄准中稍用力在右手食指上。过了不知道多久，听到砰一声响，虽然看不到，但心里已隐约明白，靶纸中间已经多了一个眼儿了。&lt;/p></description></item><item><title/><link>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</guid><description>&lt;h3 id="洛阳桥">
+ 洛阳桥
+ &lt;a class="anchor" href="#%e6%b4%9b%e9%98%b3%e6%a1%a5">#&lt;/a>
+&lt;/h3>
+&lt;h4 id="余光中">
+ 余光中
+ &lt;a class="anchor" href="#%e4%bd%99%e5%85%89%e4%b8%ad">#&lt;/a>
+&lt;/h4>
+&lt;p>刺桐花开了多少个春天&lt;/p>
+&lt;p>东西塔对望究竟多少年&lt;/p>
+&lt;p>多少人走过了洛阳桥&lt;/p>
+&lt;p>多少船驶出了泉州湾&lt;/p>
+&lt;hr>
+&lt;p>现在轮到我走上桥来&lt;/p>
+&lt;p>从桥头的古榕步向北岸&lt;/p>
+&lt;p>从蔡公祠步向蔡公石像&lt;/p>
+&lt;p>一脚踏上了北宋年间&lt;/p>
+&lt;hr>
+&lt;p>当初年轻的父亲或许&lt;/p>
+&lt;p>也带过我，六岁的稚气&lt;/p>
+&lt;p>温厚的大手牵着小手&lt;/p>
+&lt;p>从南岸走向石桥的那头&lt;/p>
+&lt;hr>
+&lt;p>或许母亲更年轻，曾经&lt;/p>
+&lt;p>和父亲一同将我牵牢&lt;/p>
+&lt;p>一左一右，带我在中间&lt;/p>
+&lt;p>三个人走过了洛阳桥&lt;/p>
+&lt;hr>
+&lt;p>想必蔡公，造桥人自己&lt;/p>
+&lt;p>当年曾领先走过此桥&lt;/p>
+&lt;p>多感动啊，泉州人随后&lt;/p>
+&lt;p>逍遥地越过洛江滔滔&lt;/p>
+&lt;hr>
+&lt;p>越过洛江无情的滔滔&lt;/p>
+&lt;p>弘一的芒鞋，俞大猷的马靴&lt;/p>
+&lt;p>惠安女绣花鞋的软步&lt;/p>
+&lt;p>都踏过普渡的洛阳桥&lt;/p>
+&lt;hr>
+&lt;p>潮起潮落，年去年来&lt;/p>
+&lt;p>匆匆过桥，一代又一代&lt;/p>
+&lt;p>有的，急急于赶路，有的&lt;/p>
+&lt;p>在扶栏与望柱间徘徊&lt;/p>
+&lt;hr>
+&lt;p>最后是我，晚归的诗翁&lt;/p>
+&lt;p>一千零六十步，叠叠重重&lt;/p>
+&lt;p>想叠上母亲、父亲的脚印&lt;/p>
+&lt;p>叠上泉州人千年的跫音&lt;/p>
+&lt;hr>
+&lt;p>但桥上的七亭九塔，桥下&lt;/p>
+&lt;p>的石墩，墩上累累的牡蛎&lt;/p>
+&lt;p>怎认得我呢，一个浪子&lt;/p>
+&lt;p>少小离家，回首已耄耋&lt;/p>
+&lt;hr>
+&lt;p>刺桐花开了多少个四月&lt;/p>
+&lt;p>东西塔依旧矗立不倒&lt;/p>
+&lt;p>江水东流，海波倒灌&lt;/p>
+&lt;p>多少人走过了洛阳桥&lt;/p></description></item></channel></rss>
