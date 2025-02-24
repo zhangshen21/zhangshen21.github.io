@@ -1,13 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Zhangshen</title><link>https://example.org/docs/security/</link><description>Recent content in Security on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/docs/security/index.xml" rel="self" type="application/rss+xml"/><item><title>时序数据异常检测</title><link>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</guid><description>&lt;h4 id="时序数据的处理">
- 时序数据的处理
- &lt;a class="anchor" href="#%e6%97%b6%e5%ba%8f%e6%95%b0%e6%8d%ae%e7%9a%84%e5%a4%84%e7%90%86">#&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Zhangshen</title><link>https://example.org/docs/security/</link><description>Recent content in Security on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/docs/security/index.xml" rel="self" type="application/rss+xml"/><item><title>时序数据异常检测</title><link>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</guid><description>&lt;h4 id="223-sun">
+ 2/23 Sun
+ &lt;a class="anchor" href="#223-sun">#&lt;/a>
 &lt;/h4>
-&lt;blockquote>
-&lt;p>df = pd.read_csv(&amp;lsquo;zhouqi.csv&amp;rsquo;, parse_dates=[&amp;lsquo;Date&amp;rsquo;])&lt;br>
-处理zhouqi.csv，将Date列解析为日期格式&lt;br>
-df.set_index(&amp;lsquo;Date&amp;rsquo;, inplace=True)&lt;br>
-将Date列设置为索引，并设置在原dataframe上处理，不新建&lt;br>
-df[&amp;lsquo;Month&amp;rsquo;] = df.index.to_period(&amp;lsquo;M&amp;rsquo;)&lt;br>
-增加一列月份值，由原索引（即日期索引）转化而来&lt;br>
-grouped = df.groupby(&amp;lsquo;Month&amp;rsquo;)&lt;br>
-按月份值对数据进行分组&lt;/p>&lt;/blockquote></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item></channel></rss>
+&lt;pre>&lt;code>时序数据的处理——
+
+df = pd.read_csv('zhouqi.csv', parse_dates=['Date'])
+处理zhouqi.csv，将Date列解析为日期格式
+
+df.set_index('Date', inplace=True)
+将Date列设置为索引，并设置在原dataframe上处理，不新建
+
+df['Month'] = df.index.to_period('M')
+增加一列月份值，由原索引（即日期索引）转化而来
+
+grouped = df.groupby('Month')
+按月份值对数据进行分组
+&lt;/code>&lt;/pre>
+&lt;h4 id="224-mon">
+ 2/24 Mon
+ &lt;a class="anchor" href="#224-mon">#&lt;/a>
+&lt;/h4>
+&lt;pre>&lt;code>工具实现的数据类型——
+
+整体输入 DataFrame data=pd.read_csv('zhouqi.csv', parse_dates=['Date'])
+algo_detect函数输入dataframe，输出ndarray(dtype=bool)
+正常点plot函数输入为series
+异常点scatter函数输入ndarray(dtype=bool)，及输入的索引
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;pre>&lt;code>标注工具功能——
+
+文件、文件夹导入，标签添加后的导出
+训练集和测试集的选择，模型训练按钮
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;pre>&lt;code>整体流程——
+
+文件导入
+点异常使用单种算法或多种算法集成方式检测
+标注完后导出
+支持训练集选择、测试集选择、模型训练
+选择模型，进行上下文异常和集合异常的检测
+&lt;/code>&lt;/pre></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item></channel></rss>
