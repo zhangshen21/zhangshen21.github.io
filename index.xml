@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>轮廓</title><link>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</link><pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>轮廓</title><link>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</link><pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</guid><description>&lt;pre>&lt;code>有时候我心里有一些词，词背后有各种意象，我试着将它们排序
+&lt;/code>&lt;/pre>
+&lt;ul>
 &lt;li>瓦片放逐&lt;/li>
 &lt;li>也无风雨也无晴&lt;/li>
 &lt;li>日本 冰岛 加拿大 挪威&lt;/li>
@@ -13,7 +15,7 @@
 &lt;li>和顺富足 自我表达 科技和现代化&lt;/li>
 &lt;li>感官至上&lt;/li>
 &lt;li>两级分化&lt;/li>
-&lt;/ul></description></item><item><title>Blog Feb</title><link>https://example.org/docs/sketch/prologue/blog-feb/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/blog-feb/</guid><description>&lt;h3 id="contents">
+&lt;/ul></description></item><item><title>Blog Feb</title><link>https://example.org/docs/sketch/prologue/blog/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/blog/</guid><description>&lt;h3 id="contents">
  Contents
  &lt;a class="anchor" href="#contents">#&lt;/a>
 &lt;/h3>
@@ -82,7 +84,11 @@ algo_detect函数输入dataframe，输出ndarray(dtype=bool)
 
 多种算法集成的点异常检测直接投票，异常过半即标记为异常
 准备训练集给模型训练使用，检测三种异常类型
-&lt;/code>&lt;/pre></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/carcaptor/</guid><description>&lt;h3 id="carcaptor">
+&lt;/code>&lt;/pre>
+&lt;h4 id="225-tue">
+ 2/25 Tue
+ &lt;a class="anchor" href="#225-tue">#&lt;/a>
+&lt;/h4></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/prologue/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/carcaptor/</guid><description>&lt;h3 id="carcaptor">
  CarCaptor
  &lt;a class="anchor" href="#carcaptor">#&lt;/a>
 &lt;/h3>
@@ -93,7 +99,9 @@ algo_detect函数输入dataframe，输出ndarray(dtype=bool)
 &lt;p>那些汽车背后的故事，自何处起始，在怎样的过程中浸染着我们的生活，又将何以影响我们的未来。&lt;br>
 一个行业、一项事物，不止在我们看到ta们的时候影响我们的生活，也在人所不知处塑造着我们，ta既是无数人的工作所在，也能为我们提供观察世界的视角，这就足够成为一种圆满的生活范式了。&lt;/p>
 &lt;hr>
-&lt;p>&lt;a href="https://space.bilibili.com/1378987867/?spm_id_from=333.999.0.0">CarCapor - Bilibili&lt;/a>&lt;/p></description></item><item><title>松雅湖</title><link>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</guid><description>&lt;pre>&lt;code>长沙市，长沙县，松雅湖
+&lt;p>&lt;a href="https://space.bilibili.com/1378987867/?spm_id_from=333.999.0.0">CarCapor - Bilibili&lt;/a>&lt;/p></description></item><item><title>自己的方向</title><link>https://example.org/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%B9%E5%90%91/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%B9%E5%90%91/</guid><description>&lt;p>首先我想粗暴地给出一个定义，我们来到世界上，是为了看“花怎么开，水怎么流”，是体验一些人所共有的美好情感，走向自己的方向。那么我们何以定义“自己的方向”，我的理解是，你应当向好的方向走去，在此中倾听自己心里的声音，将好的方向向心里声音指引的方向延伸开去。因此问题变成了我们何以定义“好的方向”。&lt;/p>
+&lt;p>站在所有历史经验的肩膀上，向自己的方向迈出一小步，&lt;/p>
+&lt;p>站在所有历史经验的肩膀上应当是一个科学客观的过程，你要做好当下之事，“进步是今天的活动，明天的保证”，就像只有手心抵稳枪把，你才能&lt;/p></description></item><item><title>松雅湖</title><link>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</guid><description>&lt;pre>&lt;code>长沙市，长沙县，松雅湖
 2025-02-07
 &lt;/code>&lt;/pre>
 &lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%961.jpg" alt="alt text" />&lt;/p>
@@ -114,7 +122,14 @@ algo_detect函数输入dataframe，输出ndarray(dtype=bool)
 &lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a4.jpg" alt="alt text" />&lt;/p>
 &lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a5.jpg" alt="alt text" />&lt;/p>
 &lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a6.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a7.jpg" alt="alt text" />&lt;/p></description></item><item><title>《水调歌头·黄州快哉亭赠张偓佺》</title><link>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</guid><description>&lt;h3 id="水调歌头黄州快哉亭赠张偓佺">
+&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a7.jpg" alt="alt text" />&lt;/p></description></item><item><title>吴伏七村</title><link>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</guid><description>&lt;pre>&lt;code>黄冈市，武穴市，梅川镇吴伏七村
+2025-02-07
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="https://example.org/image/3.jpg" alt="alt text" />&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/4.jpg" alt="alt text" />&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/5.jpg" alt="alt text" />&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/6.jpg" alt="alt text" />&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/7.jpg" alt="alt text" />&lt;/p></description></item><item><title>水调歌头·黄州快哉亭赠张偓佺</title><link>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</guid><description>&lt;h3 id="水调歌头黄州快哉亭赠张偓佺">
  《水调歌头·黄州快哉亭赠张偓佺》
  &lt;a class="anchor" href="#%e6%b0%b4%e8%b0%83%e6%ad%8c%e5%a4%b4%e9%bb%84%e5%b7%9e%e5%bf%ab%e5%93%89%e4%ba%ad%e8%b5%a0%e5%bc%a0%e5%81%93%e4%bd%ba">#&lt;/a>
 &lt;/h3>
@@ -125,14 +140,7 @@ algo_detect函数输入dataframe，输出ndarray(dtype=bool)
 &lt;p>落日绣帘卷，亭下水连空。知君为我新作，窗户湿青红。&lt;br>
 长记平山堂上，欹枕江南烟雨，杳杳没孤鸿。认得醉翁语，“山色有无中”。　&lt;/p>
 &lt;p>一千顷，都镜净，倒碧峰。忽然浪起，掀舞一叶白头翁。&lt;br>
-堪笑兰台公子，未解庄生天籁，刚道有雌雄。一点浩然气，千里快哉风。&lt;/p></description></item><item><title>吴伏七村</title><link>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</guid><description>&lt;pre>&lt;code>黄冈市，武穴市，梅川镇吴伏七村
-2025-02-07
-&lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://example.org/image/3.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/4.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/5.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/6.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/7.jpg" alt="alt text" />&lt;/p></description></item><item><title>洛阳桥</title><link>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</guid><description>&lt;h3 id="洛阳桥">
+堪笑兰台公子，未解庄生天籁，刚道有雌雄。一点浩然气，千里快哉风。&lt;/p></description></item><item><title>洛阳桥</title><link>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</guid><description>&lt;h3 id="洛阳桥">
  洛阳桥
  &lt;a class="anchor" href="#%e6%b4%9b%e9%98%b3%e6%a1%a5">#&lt;/a>
 &lt;/h3>
@@ -206,7 +214,7 @@ algo_detect函数输入dataframe，输出ndarray(dtype=bool)
 &lt;blockquote>
 &lt;p>因为大部分人的生活，实际是我想做一件什么事，然后我做这个事的过程，成了我的生活。当你辛辛苦苦的画完这幅画，从学画到磨练到日夜敏思苦想，你自然就会变得像画家那样看待事情，变得洒脱，但同时你也品尝到了画家的痛苦。&lt;/p>&lt;/blockquote>
 &lt;blockquote>
-&lt;p>这就是我们塑造一种生活的方法。&lt;/p>&lt;/blockquote></description></item><item><title>新一年</title><link>https://example.org/posts/25%E6%98%A5%E8%8A%82/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/25%E6%98%A5%E8%8A%82/</guid><description>&lt;h3 id="几件事情">
+&lt;p>这就是我们塑造一种生活的方法。&lt;/p>&lt;/blockquote></description></item><item><title>新一年</title><link>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</guid><description>&lt;h3 id="几件事情">
  几件事情
  &lt;a class="anchor" href="#%e5%87%a0%e4%bb%b6%e4%ba%8b%e6%83%85">#&lt;/a>
 &lt;/h3>

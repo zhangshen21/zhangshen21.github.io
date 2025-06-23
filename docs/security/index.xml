@@ -47,4 +47,8 @@ algo_detect函数输入dataframe，输出ndarray(dtype=bool)
 
 多种算法集成的点异常检测直接投票，异常过半即标记为异常
 准备训练集给模型训练使用，检测三种异常类型
-&lt;/code>&lt;/pre></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item></channel></rss>
+&lt;/code>&lt;/pre>
+&lt;h4 id="225-tue">
+ 2/25 Tue
+ &lt;a class="anchor" href="#225-tue">#&lt;/a>
+&lt;/h4></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item></channel></rss>
