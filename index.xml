@@ -35,60 +35,7 @@
 &lt;a href="https://www.zhihu.com/question/444852842/answer/1754858002">布衣三尺剑 - 知乎&lt;/a>&lt;br>
 &lt;a href="https://www.zhihu.com/question/22988684/answer/239622153">橘猫太子 - 知乎&lt;/a>&lt;br>
 &lt;a href="https://www.zhihu.com/question/667475290/answer/6888881241">林为珮 - 知乎&lt;/a>&lt;/p>
-&lt;hr></description></item><item><title>时序数据异常检测</title><link>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</guid><description>&lt;h4 id="223-sun">
- 2/23 Sun
- &lt;a class="anchor" href="#223-sun">#&lt;/a>
-&lt;/h4>
-&lt;pre>&lt;code>时序数据的处理——
-
-df = pd.read_csv('zhouqi.csv', parse_dates=['Date'])
-处理zhouqi.csv，将Date列解析为日期格式
-
-df.set_index('Date', inplace=True)
-将Date列设置为索引，并设置在原dataframe上处理，不新建
-
-df['Month'] = df.index.to_period('M')
-增加一列月份值，由原索引（即日期索引）转化而来
-
-grouped = df.groupby('Month')
-按月份值对数据进行分组
-&lt;/code>&lt;/pre>
-&lt;h4 id="224-mon">
- 2/24 Mon
- &lt;a class="anchor" href="#224-mon">#&lt;/a>
-&lt;/h4>
-&lt;pre>&lt;code>工具实现的数据类型——
-
-整体输入 DataFrame data=pd.read_csv('zhouqi.csv', parse_dates=['Date'])
-algo_detect函数输入dataframe，输出ndarray(dtype=bool)
-正常点plot函数输入为series
-异常点scatter函数输入ndarray(dtype=bool)，及输入的索引
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;pre>&lt;code>标注工具功能——
-
-文件、文件夹导入，标签添加后的导出
-训练集和测试集的选择，模型训练按钮
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;pre>&lt;code>整体流程——
-
-文件导入
-点异常使用单种算法或多种算法集成方式检测
-标注完后导出
-支持训练集选择、测试集选择、模型训练
-选择模型，进行上下文异常和集合异常的检测
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;pre>&lt;code>？！——
-
-多种算法集成的点异常检测直接投票，异常过半即标记为异常
-准备训练集给模型训练使用，检测三种异常类型
-&lt;/code>&lt;/pre>
-&lt;h4 id="225-tue">
- 2/25 Tue
- &lt;a class="anchor" href="#225-tue">#&lt;/a>
-&lt;/h4></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/prologue/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/carcaptor/</guid><description>&lt;h3 id="carcaptor">
+&lt;hr></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/prologue/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/carcaptor/</guid><description>&lt;h3 id="carcaptor">
  CarCaptor
  &lt;a class="anchor" href="#carcaptor">#&lt;/a>
 &lt;/h3>
