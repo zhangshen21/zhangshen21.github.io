@@ -286,7 +286,7 @@ graph TD;
  5. 原生 HTML（html）
  &lt;a class="anchor" href="#5-%e5%8e%9f%e7%94%9f-htmlhtml">#&lt;/a>
 &lt;/h2>
-&lt;span style="background: yellow; color: red;">高亮文字&lt;/span>
+&lt;span style="background: yellow; color: #1485ee;">高亮文字&lt;/span>
 &lt;hr>
 &lt;h2 id="6-国际化文本i18n">
  6. 国际化文本（i18n）
