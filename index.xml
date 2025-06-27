@@ -1,166 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Shortcodes Demo</title><link>https://example.org/docs/sketch/prologue/new/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/new/</guid><description>&lt;h1 id="hugo-book-shortcodes-演示">
- Hugo Book Shortcodes 演示
- &lt;a class="anchor" href="#hugo-book-shortcodes-%e6%bc%94%e7%a4%ba">#&lt;/a>
-&lt;/h1>
-&lt;h2 id="1-按钮button">
- 1. 按钮（button）
- &lt;a class="anchor" href="#1-%e6%8c%89%e9%92%aebutton">#&lt;/a>
-&lt;/h2>
-&lt;a href="https://example.com" target="_blank" rel="noopener" class="book-btn">示例按钮&lt;/a>
-
-&lt;hr>
-&lt;h2 id="2-多栏布局columns">
- 2. 多栏布局（columns）
- &lt;a class="anchor" href="#2-%e5%a4%9a%e6%a0%8f%e5%b8%83%e5%b1%80columns">#&lt;/a>
-&lt;/h2>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner" style="flex-grow: 1;">
- 
-第一栏内容
-
----
-第二栏内容
-
- &lt;/div>
-
-&lt;/div>
-
-&lt;hr>
-&lt;h2 id="3-可折叠详情块details">
- 3. 可折叠详情块（details）
- &lt;a class="anchor" href="#3-%e5%8f%af%e6%8a%98%e5%8f%a0%e8%af%a6%e6%83%85%e5%9d%97details">#&lt;/a>
-&lt;/h2>
-&lt;details >&lt;summary>点击展开详情&lt;/summary>
- &lt;div class="markdown-inner">
- 
-这里是详情内容，可以放任何 Markdown。
-
- &lt;/div>
-&lt;/details>
-
-&lt;hr>
-&lt;h2 id="4-提示块hint">
- 4. 提示块（hint）
- &lt;a class="anchor" href="#4-%e6%8f%90%e7%a4%ba%e5%9d%97hint">#&lt;/a>
-&lt;/h2>
-&lt;blockquote class="book-hint info">
- 
-这是 info 信息提示。
-
-&lt;/blockquote>
-
-&lt;blockquote class="book-hint warning">
- 
-这是 warning 警告提示。
-
-&lt;/blockquote>
-
-&lt;blockquote class="book-hint danger">
- 
-这是 danger 危险提示。
-
-&lt;/blockquote>
-
-&lt;blockquote class="book-hint success">
- 
-这是 success 成功提示。
-
-&lt;/blockquote>
-
-&lt;hr>
-&lt;h2 id="5-原生-htmlhtml">
- 5. 原生 HTML（html）
- &lt;a class="anchor" href="#5-%e5%8e%9f%e7%94%9f-htmlhtml">#&lt;/a>
-&lt;/h2>
-&lt;span style="background: yellow; color: red;">高亮文字&lt;/span>
-&lt;hr>
-&lt;h2 id="6-国际化文本i18n">
- 6. 国际化文本（i18n）
- &lt;a class="anchor" href="#6-%e5%9b%bd%e9%99%85%e5%8c%96%e6%96%87%e6%9c%aci18n">#&lt;/a>
-&lt;/h2>
-
-&lt;hr>
-&lt;h2 id="7-数学公式katex">
- 7. 数学公式（katex）
- &lt;a class="anchor" href="#7-%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8fkatex">#&lt;/a>
-&lt;/h2>
-
-&lt;link rel="stylesheet" href="https://example.org/katex/katex.min.css" />
-&lt;script defer src="https://example.org/katex/katex.min.js">&lt;/script>
-&lt;script defer src="https://example.org/katex/auto-render.min.js" onload="renderMathInElement(document.body);">&lt;/script>&lt;span>
- \(
-E = mc^2
-\)
-&lt;/span>
-
-&lt;hr>
-&lt;h2 id="8-mermaid-流程图mermaid">
- 8. Mermaid 流程图（mermaid）
- &lt;a class="anchor" href="#8-mermaid-%e6%b5%81%e7%a8%8b%e5%9b%bemermaid">#&lt;/a>
-&lt;/h2>
-
-
-&lt;script src="https://example.org/mermaid.min.js">&lt;/script>
-
- &lt;script>mermaid.initialize({
- "flowchart": {
- "useMaxWidth":true
- },
- "theme": "default"
-}
-)&lt;/script>
-
-
-
-
-&lt;pre class="mermaid">
-graph TD;
- A-->B;
- B-->C;
-&lt;/pre>
-
-&lt;hr>
-&lt;h2 id="9-分节section">
- 9. 分节（section）
- &lt;a class="anchor" href="#9-%e5%88%86%e8%8a%82section">#&lt;/a>
-&lt;/h2>
-&lt;dl>
- 
-&lt;/dl>
-
-&lt;div class="section-inner">
- 
-这里是分节内容。
-
-&lt;/div>
-
-&lt;hr>
-&lt;h2 id="10-标签页tabstab">
- 10. 标签页（tabs/tab）
- &lt;a class="anchor" href="#10-%e6%a0%87%e7%ad%be%e9%a1%b5tabstab">#&lt;/a>
-&lt;/h2>
-&lt;div class="book-tabs">
-
-
-&lt;input type="radio" class="toggle" name="tabs-12" id="tabs-12-0" checked="checked" />
-&lt;label for="tabs-12-0">Tab 1&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">
-这是第一个标签页内容。
-&lt;/div>
-
-
-
-&lt;input type="radio" class="toggle" name="tabs-12" id="tabs-12-1" />
-&lt;label for="tabs-12-1">Tab 2&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">
-这是第二个标签页内容。
-&lt;/div>
-
-
-&lt;/div></description></item><item><title>Blog Feb</title><link>https://example.org/docs/sketch/prologue/blog/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/blog/</guid><description>&lt;h3 id="contents">
- Contents
- &lt;a class="anchor" href="#contents">#&lt;/a>
-&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Feb</title><link>https://example.org/docs/sketch/prologue/blog/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/blog/</guid><description>&lt;h3 id="contents">Contents&lt;/h3>
 &lt;ul>
 &lt;li>有制作地图的意愿&lt;/li>
 &lt;li>了解社会的知识体系&lt;/li>
@@ -168,30 +6,19 @@ graph TD;
 &lt;li>本质理解 长期积累&lt;/li>
 &lt;li>悦纳一切&lt;/li>
 &lt;/ul>
-&lt;h3 id="references">
- References
- &lt;a class="anchor" href="#references">#&lt;/a>
-&lt;/h3>
+&lt;h3 id="references">References&lt;/h3>
 &lt;p>&lt;a href="https://mp.weixin.qq.com/s/wBto0RuTTaZ3J3KYe90ZjQ">核动力喷火霸王龙 - 公众号&lt;/a> &lt;br>
 &lt;a href="https://www.zhihu.com/question/11463857483/answer/99091375822">袁牧 - 知乎 &lt;/a>&lt;br>
 &lt;a href="https://www.zhihu.com/question/444852842/answer/1754858002">布衣三尺剑 - 知乎&lt;/a>&lt;br>
 &lt;a href="https://www.zhihu.com/question/22988684/answer/239622153">橘猫太子 - 知乎&lt;/a>&lt;br>
 &lt;a href="https://www.zhihu.com/question/667475290/answer/6888881241">林为珮 - 知乎&lt;/a>&lt;/p>
-&lt;hr></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/prologue/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/carcaptor/</guid><description>&lt;h3 id="carcaptor">
- CarCaptor
- &lt;a class="anchor" href="#carcaptor">#&lt;/a>
-&lt;/h3>
+&lt;hr></description></item><item><title>ai概念</title><link>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/ai%E6%A6%82%E5%BF%B5/</guid><description/></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/prologue/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/carcaptor/</guid><description>&lt;h3 id="carcaptor">CarCaptor&lt;/h3>
 &lt;pre>&lt;code>汽车领域Up主
 分享汽车文化、汽车视角下的生活
 &lt;/code>&lt;/pre>
 &lt;hr>
-&lt;blockquote class="book-hint info">
- 
-汽车领域Up主
-分享汽车文化、汽车视角下的生活
-
-&lt;/blockquote>
-
+&lt;p>汽车领域Up主
+分享汽车文化、汽车视角下的生活&lt;/p>
 &lt;p>那些汽车背后的故事，自何处起始，在怎样的过程中浸染着我们的生活，又将何以影响我们的未来。&lt;br>
 一个行业、一项事物，不止在我们看到ta们的时候影响我们的生活，也在人所不知处塑造着我们，ta既是无数人的工作所在，也能为我们提供观察世界的视角，这就足够成为一种圆满的生活范式了。&lt;/p>
 &lt;hr>
@@ -217,50 +44,38 @@ graph TD;
 &lt;/ul></description></item><item><title>松雅湖</title><link>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</guid><description>&lt;pre>&lt;code>长沙市，长沙县，松雅湖
 2025-02-07
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%961.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%962.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%963.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%964.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%965.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%966.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%967.jpg" alt="alt text" />&lt;/p></description></item><item><title>湖南省博</title><link>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</guid><description>&lt;pre>&lt;code>长沙市，开福区，省博物馆
+&lt;p>&lt;img src="https://example.org/image/%E6%9D%BE%E9%9B%85%E6%B9%961.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E6%9D%BE%E9%9B%85%E6%B9%962.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E6%9D%BE%E9%9B%85%E6%B9%963.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E6%9D%BE%E9%9B%85%E6%B9%964.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E6%9D%BE%E9%9B%85%E6%B9%965.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E6%9D%BE%E9%9B%85%E6%B9%966.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E6%9D%BE%E9%9B%85%E6%B9%967.jpg" alt="alt text">&lt;/p></description></item><item><title>湖南省博</title><link>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</guid><description>&lt;pre>&lt;code>长沙市，开福区，省博物馆
 2025-02-14
 
 看到前言里写道：谨以此献给曾经、现在、将来在湖南这片土地上生活、游历、以及对湖南历史文化发展起到推进作用的人。
 我突然觉得心潮澎湃，说不定未来某某一天，我多少也能成为这句话的一部分，这种感觉还是很不错的。
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a1.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a2.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a3.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a4.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a5.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a6.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a7.jpg" alt="alt text" />&lt;/p></description></item><item><title>吴伏七村</title><link>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</guid><description>&lt;pre>&lt;code>黄冈市，武穴市，梅川镇吴伏七村
+&lt;p>&lt;img src="https://example.org/image/%E7%9C%81%E5%8D%9A1.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E7%9C%81%E5%8D%9A2.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E7%9C%81%E5%8D%9A3.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E7%9C%81%E5%8D%9A4.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E7%9C%81%E5%8D%9A5.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E7%9C%81%E5%8D%9A6.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/%E7%9C%81%E5%8D%9A7.jpg" alt="alt text">&lt;/p></description></item><item><title>吴伏七村</title><link>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</guid><description>&lt;pre>&lt;code>黄冈市，武穴市，梅川镇吴伏七村
 2025-02-07
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://example.org/image/3.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/4.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/5.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/6.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/7.jpg" alt="alt text" />&lt;/p></description></item><item><title>水调歌头·黄州快哉亭赠张偓佺</title><link>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</guid><description>&lt;h3 id="水调歌头黄州快哉亭赠张偓佺">
- 《水调歌头·黄州快哉亭赠张偓佺》
- &lt;a class="anchor" href="#%e6%b0%b4%e8%b0%83%e6%ad%8c%e5%a4%b4%e9%bb%84%e5%b7%9e%e5%bf%ab%e5%93%89%e4%ba%ad%e8%b5%a0%e5%bc%a0%e5%81%93%e4%bd%ba">#&lt;/a>
-&lt;/h3>
-&lt;h4 id="苏轼">
- 苏轼
- &lt;a class="anchor" href="#%e8%8b%8f%e8%bd%bc">#&lt;/a>
-&lt;/h4>
+&lt;p>&lt;img src="https://example.org/image/3.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/4.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/5.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/6.jpg" alt="alt text">&lt;/p>
+&lt;p>&lt;img src="https://example.org/image/7.jpg" alt="alt text">&lt;/p></description></item><item><title>水调歌头·黄州快哉亭赠张偓佺</title><link>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</guid><description>&lt;h3 id="水调歌头黄州快哉亭赠张偓佺">《水调歌头·黄州快哉亭赠张偓佺》&lt;/h3>
+&lt;h4 id="苏轼">苏轼&lt;/h4>
 &lt;p>落日绣帘卷，亭下水连空。知君为我新作，窗户湿青红。&lt;br>
 长记平山堂上，欹枕江南烟雨，杳杳没孤鸿。认得醉翁语，“山色有无中”。　&lt;/p>
 &lt;p>一千顷，都镜净，倒碧峰。忽然浪起，掀舞一叶白头翁。&lt;br>
-堪笑兰台公子，未解庄生天籁，刚道有雌雄。一点浩然气，千里快哉风。&lt;/p></description></item><item><title>洛阳桥</title><link>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</guid><description>&lt;h3 id="洛阳桥">
- 洛阳桥
- &lt;a class="anchor" href="#%e6%b4%9b%e9%98%b3%e6%a1%a5">#&lt;/a>
-&lt;/h3>
-&lt;h4 id="余光中">
- 余光中
- &lt;a class="anchor" href="#%e4%bd%99%e5%85%89%e4%b8%ad">#&lt;/a>
-&lt;/h4>
+堪笑兰台公子，未解庄生天籁，刚道有雌雄。一点浩然气，千里快哉风。&lt;/p></description></item><item><title>洛阳桥</title><link>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</guid><description>&lt;h3 id="洛阳桥">洛阳桥&lt;/h3>
+&lt;h4 id="余光中">余光中&lt;/h4>
 &lt;p>刺桐花开了多少个春天&lt;br>
 东西塔对望究竟多少年&lt;br>
 多少人走过了洛阳桥&lt;br>
@@ -309,10 +124,7 @@ graph TD;
 &lt;p>刺桐花开了多少个四月&lt;br>
 东西塔依旧矗立不倒&lt;br>
 江水东流，海波倒灌&lt;br>
-多少人走过了洛阳桥&lt;/p></description></item><item><title>塑造生活</title><link>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</link><pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</guid><description>&lt;h3 id="支持的力量">
- 支持的力量
- &lt;a class="anchor" href="#%e6%94%af%e6%8c%81%e7%9a%84%e5%8a%9b%e9%87%8f">#&lt;/a>
-&lt;/h3>
+多少人走过了洛阳桥&lt;/p></description></item><item><title>塑造生活</title><link>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</link><pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</guid><description>&lt;h3 id="支持的力量">支持的力量&lt;/h3>
 &lt;p>关于“想要”和“做”，知乎答主&lt;a href="https://www.zhihu.com/people/zhu-xuan-86">朱炫&lt;/a>有这样的回答(&lt;a href="https://www.zhihu.com/question/290003248/answer/474646656?utm_psn=1855301688187035649">原回答&lt;/a>)：&lt;/p>
 &lt;blockquote>
 &lt;p>人的生活，不是说，我想活成什么样，然后我脑袋一震，变身，巴拉巴拉，我就变成这个逼样了，不是的。这也是为什么大多数人每次想改变自己的生活，往往徒劳无功，他们只是倾向于模仿旁人生活中那些光彩的部分。&lt;/p>&lt;/blockquote>
@@ -327,10 +139,7 @@ graph TD;
 &lt;blockquote>
 &lt;p>因为大部分人的生活，实际是我想做一件什么事，然后我做这个事的过程，成了我的生活。当你辛辛苦苦的画完这幅画，从学画到磨练到日夜敏思苦想，你自然就会变得像画家那样看待事情，变得洒脱，但同时你也品尝到了画家的痛苦。&lt;/p>&lt;/blockquote>
 &lt;blockquote>
-&lt;p>这就是我们塑造一种生活的方法。&lt;/p>&lt;/blockquote></description></item><item><title>新一年</title><link>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</guid><description>&lt;h3 id="几件事情">
- 几件事情
- &lt;a class="anchor" href="#%e5%87%a0%e4%bb%b6%e4%ba%8b%e6%83%85">#&lt;/a>
-&lt;/h3>
+&lt;p>这就是我们塑造一种生活的方法。&lt;/p>&lt;/blockquote></description></item><item><title>新一年</title><link>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</guid><description>&lt;h3 id="几件事情">几件事情&lt;/h3>
 &lt;p>在一年里少有的寒假休息时间，我没有和放假前想的那样，能用很多时间做一些自己喜欢的事情，那些在时间宝贵的日子里吸引着我的事情没有在寒假里延续ta们的吸引。我突然发现，“我不知道做些什么好”。&lt;br>
 在信息充裕的当下，我觉得至少有几件事情可以理解：&lt;/p>
 &lt;ol>
@@ -339,10 +148,7 @@ graph TD;
 &lt;li>实践好过空想&lt;/li>
 &lt;li>生活值得审视，借助规律和科学方法，我们可以找到一些更为宝贵的价值，它们关乎生命真正的体验。&lt;/li>
 &lt;/ol>
-&lt;h3 id="新的一年">
- 新的一年
- &lt;a class="anchor" href="#%e6%96%b0%e7%9a%84%e4%b8%80%e5%b9%b4">#&lt;/a>
-&lt;/h3>
+&lt;h3 id="新的一年">新的一年&lt;/h3>
 &lt;p>生活在于乐趣，乐趣来自实践，以我们的春节为单位，我还是希望自己能够每一个单位里尽可能地实践、在实践过程里理解生活。&lt;br>
 至少我想看到，每段时间都可以在我身上留下痕迹，这可以是生活最低的希望，但也是生活最高的要求。&lt;/p></description></item><item><title>无意击发</title><link>https://example.org/posts/%E6%97%A0%E6%84%8F%E5%87%BB%E5%8F%91/</link><pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%97%A0%E6%84%8F%E5%87%BB%E5%8F%91/</guid><description>&lt;p>无意击发&lt;/p>
 &lt;p>有时我觉得，假使再小的事，如果认真去看，认真去想，你也可以从里面看到很多东西，正是这些最细微的东西，会反复以某种形式出现在我们未来的生活中。&lt;/p>
@@ -353,163 +159,4 @@ graph TD;
 &lt;p>最后考核上，我出乎意料地很快打完了五发，在焦虑和平和混杂的情绪中，等待着拿下自己的靶纸，三发十环、两发九环，四十八环。&lt;/p>
 &lt;p>这种“失败—努力—思考—成功”的模式怎么想都是让人振奋的，考核完的几天里，我都感觉沉浸在喜悦中，这种喜悦也支持着我在最忙的大三学年中一点点排解各种负面情绪。&lt;/p>
 &lt;p>在之后的很多事情里，我才后知后觉到，“有意瞄准，无意击发”可能就是生活里很多事情的剪影。平常生活里，我们更多地在瞄准而非击发，如果为了最后的那一瞬击发而动作变形，弹着点大概率就会偏离瞄准点。&lt;/p>
-&lt;p>写下这些时，不远处枪声再起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是注视着三点一线，在瞄准中稍用力在右手食指上。过了不知道多久，听到砰一声响，虽然看不到，但心里已隐约明白，靶纸中间已经多了一个眼儿了。&lt;/p></description></item><item><title>Shortcodes Demo</title><link>https://example.org/docs/sketch/prologue/shortcodes-demo/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/shortcodes-demo/</guid><description>&lt;h1 id="hugo-book-shortcodes-演示">
- Hugo Book Shortcodes 演示
- &lt;a class="anchor" href="#hugo-book-shortcodes-%e6%bc%94%e7%a4%ba">#&lt;/a>
-&lt;/h1>
-&lt;h2 id="1-按钮button">
- 1. 按钮（button）
- &lt;a class="anchor" href="#1-%e6%8c%89%e9%92%aebutton">#&lt;/a>
-&lt;/h2>
-&lt;a href="https://example.com" target="_blank" rel="noopener" class="book-btn">示例按钮&lt;/a>
-
-&lt;hr>
-&lt;h2 id="2-多栏布局columns">
- 2. 多栏布局（columns）
- &lt;a class="anchor" href="#2-%e5%a4%9a%e6%a0%8f%e5%b8%83%e5%b1%80columns">#&lt;/a>
-&lt;/h2>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner" style="flex-grow: 1;">
- 
-第一栏内容\
-
----
-第二栏内容
-
- &lt;/div>
-
-&lt;/div>
-
-&lt;hr>
-&lt;h2 id="3-可折叠详情块details">
- 3. 可折叠详情块（details）
- &lt;a class="anchor" href="#3-%e5%8f%af%e6%8a%98%e5%8f%a0%e8%af%a6%e6%83%85%e5%9d%97details">#&lt;/a>
-&lt;/h2>
-&lt;details >&lt;summary>点击展开详情&lt;/summary>
- &lt;div class="markdown-inner">
- 
-这里是详情内容，可以放任何 Markdown。
-
- &lt;/div>
-&lt;/details>
-
-&lt;hr>
-&lt;h2 id="4-提示块hint">
- 4. 提示块（hint）
- &lt;a class="anchor" href="#4-%e6%8f%90%e7%a4%ba%e5%9d%97hint">#&lt;/a>
-&lt;/h2>
-&lt;blockquote class="book-hint info">
- 
-这是 info 信息提示。
-
-&lt;/blockquote>
-
-&lt;blockquote class="book-hint warning">
- 
-这是 warning 警告提示。
-
-&lt;/blockquote>
-
-&lt;blockquote class="book-hint danger">
- 
-这是 danger 危险提示。
-
-&lt;/blockquote>
-
-&lt;blockquote class="book-hint success">
- 
-这是 success 成功提示。
-
-&lt;/blockquote>
-
-&lt;hr>
-&lt;h2 id="5-原生-htmlhtml">
- 5. 原生 HTML（html）
- &lt;a class="anchor" href="#5-%e5%8e%9f%e7%94%9f-htmlhtml">#&lt;/a>
-&lt;/h2>
-&lt;span style="background: yellow; color: #1485ee;">高亮文字&lt;/span>
-&lt;hr>
-&lt;h2 id="6-国际化文本i18n">
- 6. 国际化文本（i18n）
- &lt;a class="anchor" href="#6-%e5%9b%bd%e9%99%85%e5%8c%96%e6%96%87%e6%9c%aci18n">#&lt;/a>
-&lt;/h2>
-
-&lt;hr>
-&lt;h2 id="7-数学公式katex">
- 7. 数学公式（katex）
- &lt;a class="anchor" href="#7-%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8fkatex">#&lt;/a>
-&lt;/h2>
-
-&lt;link rel="stylesheet" href="https://example.org/katex/katex.min.css" />
-&lt;script defer src="https://example.org/katex/katex.min.js">&lt;/script>
-&lt;script defer src="https://example.org/katex/auto-render.min.js" onload="renderMathInElement(document.body);">&lt;/script>&lt;span>
- \(
-E = mc^2
-\)
-&lt;/span>
-
-&lt;hr>
-&lt;h2 id="8-mermaid-流程图mermaid">
- 8. Mermaid 流程图（mermaid）
- &lt;a class="anchor" href="#8-mermaid-%e6%b5%81%e7%a8%8b%e5%9b%bemermaid">#&lt;/a>
-&lt;/h2>
-
-
-&lt;script src="https://example.org/mermaid.min.js">&lt;/script>
-
- &lt;script>mermaid.initialize({
- "flowchart": {
- "useMaxWidth":true
- },
- "theme": "default"
-}
-)&lt;/script>
-
-
-
-
-&lt;pre class="mermaid">
-graph TD;
- A-->B;
- B-->C;
-&lt;/pre>
-
-&lt;hr>
-&lt;h2 id="9-分节section">
- 9. 分节（section）
- &lt;a class="anchor" href="#9-%e5%88%86%e8%8a%82section">#&lt;/a>
-&lt;/h2>
-&lt;dl>
- 
-&lt;/dl>
-
-&lt;div class="section-inner">
- 
-这里是分节内容。
-
-&lt;/div>
-
-&lt;hr>
-&lt;h2 id="10-标签页tabstab">
- 10. 标签页（tabs/tab）
- &lt;a class="anchor" href="#10-%e6%a0%87%e7%ad%be%e9%a1%b5tabstab">#&lt;/a>
-&lt;/h2>
-&lt;div class="book-tabs">
-
-
-&lt;input type="radio" class="toggle" name="tabs-12" id="tabs-12-0" checked="checked" />
-&lt;label for="tabs-12-0">Tab 1&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">
-这是第一个标签页内容。
-&lt;/div>
-
-
-
-&lt;input type="radio" class="toggle" name="tabs-12" id="tabs-12-1" />
-&lt;label for="tabs-12-1">Tab 2&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">
-这是第二个标签页内容。
-&lt;/div>
-
-
-&lt;/div></description></item></channel></rss>
+&lt;p>写下这些时，不远处枪声再起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是注视着三点一线，在瞄准中稍用力在右手食指上。过了不知道多久，听到砰一声响，虽然看不到，但心里已隐约明白，靶纸中间已经多了一个眼儿了。&lt;/p></description></item></channel></rss>
