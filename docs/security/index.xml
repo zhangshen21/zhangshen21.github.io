@@ -118,13 +118,15 @@ ip命令的各系列所在层
 
 &lt;/div>
 
-&lt;!-- raw HTML omitted -->
-&lt;h2 id="详细内容">
- 详细内容
- &lt;a class="anchor" href="#%e8%af%a6%e7%bb%86%e5%86%85%e5%ae%b9">#&lt;/a>
-&lt;/h2>
-&lt;p>这里是折叠的详细内容&amp;hellip;&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;details open>&lt;summary>点击展开详情&lt;/summary>
+ &lt;div class="markdown-inner">
+ 
+详细内容
+这里是折叠的详细内容...
+
+ &lt;/div>
+&lt;/details>
+
 &lt;h2 id="4-提示-hint">
  4. 提示 hint
  &lt;a class="anchor" href="#4-%e6%8f%90%e7%a4%ba-hint">#&lt;/a>
