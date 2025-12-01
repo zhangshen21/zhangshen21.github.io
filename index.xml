@@ -1,487 +1,517 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux命令</title><link>https://example.org/docs/security/linux%E5%91%BD%E4%BB%A4/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/linux%E5%91%BD%E4%BB%A4/</guid><description>&lt;blockquote class="book-hint info">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Zhangshen</title><link>https://example.org/</link><description>Recent content in Introduction on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>12月</title><link>https://example.org/docs/security/experience/12%E6%9C%88/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/experience/12%E6%9C%88/</guid><description>&lt;h3 id="week-1"&gt;
+ Week 1
+ &lt;a class="anchor" href="#week-1"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;高校何以既无研究也无生活&lt;/p&gt;
+&lt;p&gt;追求爱是一种重要的生命体验&lt;/p&gt;
+&lt;p&gt;历史的垃圾时间&lt;/p&gt;
+&lt;p&gt;在不确定性的时代我们如何“锻炼”自己&lt;/p&gt;</description></item><item><title>Fortigate指纹识别</title><link>https://example.org/docs/security/technique/12%E6%9C%88/fortigate%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/fortigate%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/</guid><description>&lt;blockquote class="book-hint info"&gt;
+ 
+思路
+
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在登录页Web UI中查找etag hash 和SSL证书等信息辅助判断版本型号&lt;/li&gt;
+&lt;li&gt;查release note，设计针对不同端口、不同协议的包得到有效响应，根据不同响应判断版本型号&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>PaddingOracel漏洞复现</title><link>https://example.org/docs/security/technique/12%E6%9C%88/paddingoracel%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/paddingoracel%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/</guid><description>&lt;blockquote class="book-hint info"&gt;
+ 
+思路
+
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在两台电脑端运行恶意攻击端和正常服务器端，攻击端连接恶意脚本，遍历尝试，根据服务器端响应结果判断遍历结果正确与否。&lt;/li&gt;
+&lt;li&gt;两台主机在不同网段下的私有地址，正常服务器端用ngrok内网穿透，将服务暴露在公网IP上。&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Linux命令</title><link>https://example.org/docs/security/technique/12%E6%9C%88/linux%E5%91%BD%E4%BB%A4/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/linux%E5%91%BD%E4%BB%A4/</guid><description>&lt;blockquote class="book-hint info"&gt;
  
 Linux常用命令可以分为以下系列，每个系列针对不同的系统管理和操作任务
 
-&lt;/blockquote>
+&lt;/blockquote&gt;
 
-&lt;ol>
-&lt;li>文件与目录管理系列：如ls（列出目录内容）、cd（切换目录）、cp（复制文件）、mv（移动/重命名）、rm（删除）、mkdir（创建目录）、rmdir（删除空目录）、find（查找文件）、tree（树状显示目录结构）等。&lt;/li>
-&lt;li>文件内容查看与处理系列：如cat（查看文件内容）、less/more（分页查看）、head/tail（查看文件头/尾）、grep（文本搜索）、awk/sed（文本处理）、sort（排序）、uniq（去重）、wc（统计行字数）等。&lt;/li>
-&lt;li>权限与用户管理系列：如chmod（修改权限）、chown（修改所有者）、chgrp（修改组）、passwd（修改密码）、su（切换用户）、sudo（以管理员权限执行）等。&lt;/li>
-&lt;li>进程与作业管理系列：如ps（查看进程）、top/htop（动态监控进程）、kill/killall（终止进程）、jobs（作业管理）、bg/fg（后台/前台作业）等。&lt;/li>
-&lt;li>网络管理系列：如ip/ifconfig（网络配置）、ping（测试连通性）、netstat/ss（网络状态）、curl/wget（下载）、scp/rsync（远程复制）、ssh（远程登录）等。&lt;/li>
-&lt;li>软件包与系统管理系列：如apt/yum/dnf（包管理）、dpkg/rpm（包安装）、systemctl/service（服务管理）、journalctl（日志查看）、reboot/shutdown（重启/关机）、df/du（磁盘空间）、free（内存）、uname（系统信息）等。&lt;/li>
-&lt;li>压缩与归档系列：如tar（打包）、gzip/gunzip、zip/unzip、bzip2/bunzip2、xz/unxz等。&lt;/li>
-&lt;li>时间与计划任务系列：如date（显示时间）、cal（日历）、crontab（定时任务）、at（一次性定时任务）等。&lt;/li>
-&lt;li>开发与编程辅助系列：如gcc/g++（编译器）、make（自动化构建）、gdb（调试器）、vim/nano（编辑器）、diff/patch（文件对比与补丁）等。&lt;/li>
-&lt;li>其他常用工具系列：如man（查看帮助）、history（命令历史）、alias（命令别名）、echo（输出）、env（环境变量）、export（设置环境变量）等。&lt;/li>
-&lt;/ol>
-&lt;p>每个系列下还有大量子命令和参数，可通过man [命令]或[命令] &amp;ndash;help查看详细用法。&lt;/p>
-&lt;hr>
-&lt;blockquote class="book-hint info">
+&lt;ol&gt;
+&lt;li&gt;文件与目录管理系列：如ls（列出目录内容）、cd（切换目录）、cp（复制文件）、mv（移动/重命名）、rm（删除）、mkdir（创建目录）、rmdir（删除空目录）、find（查找文件）、tree（树状显示目录结构）等。&lt;/li&gt;
+&lt;li&gt;文件内容查看与处理系列：如cat（查看文件内容）、less/more（分页查看）、head/tail（查看文件头/尾）、grep（文本搜索）、awk/sed（文本处理）、sort（排序）、uniq（去重）、wc（统计行字数）等。&lt;/li&gt;
+&lt;li&gt;权限与用户管理系列：如chmod（修改权限）、chown（修改所有者）、chgrp（修改组）、passwd（修改密码）、su（切换用户）、sudo（以管理员权限执行）等。&lt;/li&gt;
+&lt;li&gt;进程与作业管理系列：如ps（查看进程）、top/htop（动态监控进程）、kill/killall（终止进程）、jobs（作业管理）、bg/fg（后台/前台作业）等。&lt;/li&gt;
+&lt;li&gt;网络管理系列：如ip/ifconfig（网络配置）、ping（测试连通性）、netstat/ss（网络状态）、curl/wget（下载）、scp/rsync（远程复制）、ssh（远程登录）等。&lt;/li&gt;
+&lt;li&gt;软件包与系统管理系列：如apt/yum/dnf（包管理）、dpkg/rpm（包安装）、systemctl/service（服务管理）、journalctl（日志查看）、reboot/shutdown（重启/关机）、df/du（磁盘空间）、free（内存）、uname（系统信息）等。&lt;/li&gt;
+&lt;li&gt;压缩与归档系列：如tar（打包）、gzip/gunzip、zip/unzip、bzip2/bunzip2、xz/unxz等。&lt;/li&gt;
+&lt;li&gt;时间与计划任务系列：如date（显示时间）、cal（日历）、crontab（定时任务）、at（一次性定时任务）等。&lt;/li&gt;
+&lt;li&gt;开发与编程辅助系列：如gcc/g++（编译器）、make（自动化构建）、gdb（调试器）、vim/nano（编辑器）、diff/patch（文件对比与补丁）等。&lt;/li&gt;
+&lt;li&gt;其他常用工具系列：如man（查看帮助）、history（命令历史）、alias（命令别名）、echo（输出）、env（环境变量）、export（设置环境变量）等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;每个系列下还有大量子命令和参数，可通过man [命令]或[命令] &amp;ndash;help查看详细用法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote class="book-hint info"&gt;
  
 ip命令的各系列所在层
 
-&lt;/blockquote>
+&lt;/blockquote&gt;
 
-&lt;ol>
-&lt;li>
-&lt;p>物理层（Physical Layer）：&lt;/p>
-&lt;ul>
-&lt;li>ip命令本身不直接操作物理层（如电缆、信号），但通过链路管理间接影响物理接口的启用/禁用。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>数据链路层（Data Link Layer）：&lt;/p>
-&lt;ul>
-&lt;li>ip link：
-&lt;ul>
-&lt;li>常用子命令：ip link show（查看接口）、ip link set dev eth0 up/down（启用/禁用接口）、ip link set dev eth0 mtu 1400（设置MTU）、ip link add/del（添加/删除虚拟接口）。&lt;/li>
-&lt;li>作用：管理网卡、虚拟网卡、接口状态、MTU等。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>ip neigh：
-&lt;ul>
-&lt;li>常用子命令：ip neigh show（查看ARP表）、ip neigh add/del（添加/删除邻居项）。&lt;/li>
-&lt;li>作用：管理ARP邻居表，实现IP与MAC的映射。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>ip tuntap：
-&lt;ul>
-&lt;li>常用子命令：ip tuntap add dev tun0 mode tun（创建TUN设备）、ip tuntap del dev tun0（删除虚拟设备）。&lt;/li>
-&lt;li>作用：创建和管理TUN/TAP虚拟网卡，常用于VPN、虚拟网络。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>网络层（Network Layer）：&lt;/p>
-&lt;ul>
-&lt;li>ip addr/address：
-&lt;ul>
-&lt;li>常用子命令：ip addr show（查看IP）、ip addr add/del（添加/删除IP地址）。&lt;/li>
-&lt;li>作用：配置和查看IPv4/IPv6地址。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>ip route：
-&lt;ul>
-&lt;li>常用子命令：ip route show（查看路由表）、ip route add/del（添加/删除路由）。&lt;/li>
-&lt;li>作用：配置和管理路由表，决定数据包的转发路径。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>ip rule：
-&lt;ul>
-&lt;li>常用子命令：ip rule show（查看路由规则）、ip rule add/del（添加/删除规则）。&lt;/li>
-&lt;li>作用：实现策略路由，根据多条件决定路由。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>ip maddr：
-&lt;ul>
-&lt;li>常用子命令：ip maddr show（查看多播地址）、ip maddr add/del（添加/删除多播地址）。&lt;/li>
-&lt;li>作用：管理多播地址，支持多播通信。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>ip tunnel：
-&lt;ul>
-&lt;li>常用子命令：ip tunnel add/del（添加/删除隧道）、ip tunnel show（查看隧道）。&lt;/li>
-&lt;li>作用：创建和管理网络隧道（如GRE、IPIP等），实现跨网段通信。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>传输层（Transport Layer）：&lt;/p></description></item><item><title>Shortcode</title><link>https://example.org/docs/security/example/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/example/</guid><description>&lt;h1 id="hugo-book-shortcodes-使用示例">
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;物理层（Physical Layer）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ip命令本身不直接操作物理层（如电缆、信号），但通过链路管理间接影响物理接口的启用/禁用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据链路层（Data Link Layer）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ip link：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip link show（查看接口）、ip link set dev eth0 up/down（启用/禁用接口）、ip link set dev eth0 mtu 1400（设置MTU）、ip link add/del（添加/删除虚拟接口）。&lt;/li&gt;
+&lt;li&gt;作用：管理网卡、虚拟网卡、接口状态、MTU等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ip neigh：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip neigh show（查看ARP表）、ip neigh add/del（添加/删除邻居项）。&lt;/li&gt;
+&lt;li&gt;作用：管理ARP邻居表，实现IP与MAC的映射。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ip tuntap：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip tuntap add dev tun0 mode tun（创建TUN设备）、ip tuntap del dev tun0（删除虚拟设备）。&lt;/li&gt;
+&lt;li&gt;作用：创建和管理TUN/TAP虚拟网卡，常用于VPN、虚拟网络。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;网络层（Network Layer）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ip addr/address：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip addr show（查看IP）、ip addr add/del（添加/删除IP地址）。&lt;/li&gt;
+&lt;li&gt;作用：配置和查看IPv4/IPv6地址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ip route：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip route show（查看路由表）、ip route add/del（添加/删除路由）。&lt;/li&gt;
+&lt;li&gt;作用：配置和管理路由表，决定数据包的转发路径。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ip rule：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip rule show（查看路由规则）、ip rule add/del（添加/删除规则）。&lt;/li&gt;
+&lt;li&gt;作用：实现策略路由，根据多条件决定路由。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ip maddr：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip maddr show（查看多播地址）、ip maddr add/del（添加/删除多播地址）。&lt;/li&gt;
+&lt;li&gt;作用：管理多播地址，支持多播通信。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ip tunnel：
+&lt;ul&gt;
+&lt;li&gt;常用子命令：ip tunnel add/del（添加/删除隧道）、ip tunnel show（查看隧道）。&lt;/li&gt;
+&lt;li&gt;作用：创建和管理网络隧道（如GRE、IPIP等），实现跨网段通信。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;传输层（Transport Layer）：&lt;/p&gt;</description></item><item><title>Shortcode</title><link>https://example.org/docs/security/technique/12%E6%9C%88/example/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/example/</guid><description>&lt;h1 id="hugo-book-shortcodes-使用示例"&gt;
  Hugo Book Shortcodes 使用示例
- &lt;a class="anchor" href="#hugo-book-shortcodes-%e4%bd%bf%e7%94%a8%e7%a4%ba%e4%be%8b">#&lt;/a>
-&lt;/h1>
-&lt;h2 id="1-按钮-button">
+ &lt;a class="anchor" href="#hugo-book-shortcodes-%e4%bd%bf%e7%94%a8%e7%a4%ba%e4%be%8b"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="1-按钮-button"&gt;
  1. 按钮 button
- &lt;a class="anchor" href="#1-%e6%8c%89%e9%92%ae-button">#&lt;/a>
-&lt;/h2>
-&lt;a href="https://example.com" target="_blank" rel="noopener" class="book-btn">跳转到Example&lt;/a>
+ &lt;a class="anchor" href="#1-%e6%8c%89%e9%92%ae-button"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;a href="https://example.com" target="_blank" rel="noopener" class="book-btn"&gt;跳转到Example&lt;/a&gt;
 
-&lt;h2 id="2-多列-columns">
+&lt;h2 id="2-多列-columns"&gt;
  2. 多列 columns
- &lt;a class="anchor" href="#2-%e5%a4%9a%e5%88%97-columns">#&lt;/a>
-&lt;/h2>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner" style="flex-grow: 2;">
+ &lt;a class="anchor" href="#2-%e5%a4%9a%e5%88%97-columns"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="book-columns flex flex-wrap"&gt;
+&lt;div class="flex-even markdown-inner" style="flex-grow: 2;"&gt;
  
 左侧内容
 
- &lt;/div>
-&lt;div class="flex-even markdown-inner" style="flex-grow: 1;">
+ &lt;/div&gt;
+&lt;div class="flex-even markdown-inner" style="flex-grow: 1;"&gt;
  
 右侧内容
 
- &lt;/div>
+ &lt;/div&gt;
 
-&lt;/div>
+&lt;/div&gt;
 
-&lt;details open>&lt;summary>点击展开详情&lt;/summary>
- &lt;div class="markdown-inner">
+&lt;details open&gt;&lt;summary&gt;点击展开详情&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
  
 详细内容
 这里是折叠的详细内容...
 
- &lt;/div>
-&lt;/details>
+ &lt;/div&gt;
+&lt;/details&gt;
 
-&lt;h2 id="4-提示-hint">
+&lt;h2 id="4-提示-hint"&gt;
  4. 提示 hint
- &lt;a class="anchor" href="#4-%e6%8f%90%e7%a4%ba-hint">#&lt;/a>
-&lt;/h2>
-&lt;blockquote class="book-hint info">
+ &lt;a class="anchor" href="#4-%e6%8f%90%e7%a4%ba-hint"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;blockquote class="book-hint info"&gt;
  
 这是一个信息提示。
 
-&lt;/blockquote>
+&lt;/blockquote&gt;
 
-&lt;h2 id="5-原生html-html">
+&lt;h2 id="5-原生html-html"&gt;
  5. 原生HTML html
- &lt;a class="anchor" href="#5-%e5%8e%9f%e7%94%9fhtml-html">#&lt;/a>
-&lt;/h2>
+ &lt;a class="anchor" href="#5-%e5%8e%9f%e7%94%9fhtml-html"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 
-&lt;b>这里是原生HTML内容&lt;/b>
+&lt;b&gt;这里是原生HTML内容&lt;/b&gt;
 
-&lt;h2 id="6-国际化-i18n">
+&lt;h2 id="6-国际化-i18n"&gt;
  6. 国际化 i18n
- &lt;a class="anchor" href="#6-%e5%9b%bd%e9%99%85%e5%8c%96-i18n">#&lt;/a>
-&lt;/h2>
+ &lt;a class="anchor" href="#6-%e5%9b%bd%e9%99%85%e5%8c%96-i18n"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 hello
-&lt;h2 id="7-数学公式-katex">
+&lt;h2 id="7-数学公式-katex"&gt;
  7. 数学公式 katex
- &lt;a class="anchor" href="#7-%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8f-katex">#&lt;/a>
-&lt;/h2>
+ &lt;a class="anchor" href="#7-%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8f-katex"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 
-&lt;link rel="stylesheet" href="https://example.org/katex/katex.min.css" />
-&lt;script defer src="https://example.org/katex/katex.min.js">&lt;/script>
-&lt;script defer src="https://example.org/katex/auto-render.min.js" onload="renderMathInElement(document.body);">&lt;/script>&lt;span>
+&lt;link rel="stylesheet" href="https://example.org/katex/katex.min.css" /&gt;
+&lt;script defer src="https://example.org/katex/katex.min.js"&gt;&lt;/script&gt;
+&lt;script defer src="https://example.org/katex/auto-render.min.js" onload="renderMathInElement(document.body);"&gt;&lt;/script&gt;&lt;span&gt;
  \[
 \int_0^1 x^2 dx
 \]
-&lt;/span>
+&lt;/span&gt;
 
-&lt;h2 id="8-mermaid-流程图-mermaid">
+&lt;h2 id="8-mermaid-流程图-mermaid"&gt;
  8. Mermaid 流程图 mermaid
- &lt;a class="anchor" href="#8-mermaid-%e6%b5%81%e7%a8%8b%e5%9b%be-mermaid">#&lt;/a>
-&lt;/h2>
+ &lt;a class="anchor" href="#8-mermaid-%e6%b5%81%e7%a8%8b%e5%9b%be-mermaid"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 
 
-&lt;script src="https://example.org/mermaid.min.js">&lt;/script>
+&lt;script src="https://example.org/mermaid.min.js"&gt;&lt;/script&gt;
 
- &lt;script>mermaid.initialize({
+ &lt;script&gt;mermaid.initialize({
  "flowchart": {
  "useMaxWidth":true
  },
  "theme": "default"
 }
-)&lt;/script>
+)&lt;/script&gt;
 
 
 
 
-&lt;pre class="mermaid">
+&lt;pre class="mermaid"&gt;
 graph TD;
- A-->B;
- A-->C;
- B-->D;
- C-->D;
-&lt;/pre>
+ A--&gt;B;
+ A--&gt;C;
+ B--&gt;D;
+ C--&gt;D;
+&lt;/pre&gt;
 
-&lt;h2 id="9-章节-section已弃用">
+&lt;h2 id="9-章节-section已弃用"&gt;
  9. 章节 section（已弃用）
- &lt;a class="anchor" href="#9-%e7%ab%a0%e8%8a%82-section%e5%b7%b2%e5%bc%83%e7%94%a8">#&lt;/a>
-&lt;/h2>
-&lt;dl>
+ &lt;a class="anchor" href="#9-%e7%ab%a0%e8%8a%82-section%e5%b7%b2%e5%bc%83%e7%94%a8"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;dl&gt;
  
-&lt;/dl>
+&lt;/dl&gt;
 
-&lt;div class="section-inner">
+&lt;div class="section-inner"&gt;
  
 这里是section内部内容。
 
-&lt;/div>
+&lt;/div&gt;
 
-&lt;h2 id="10-标签页-tabstab">
+&lt;h2 id="10-标签页-tabstab"&gt;
  10. 标签页 tabs/tab
- &lt;a class="anchor" href="#10-%e6%a0%87%e7%ad%be%e9%a1%b5-tabstab">#&lt;/a>
-&lt;/h2>
-&lt;div class="book-tabs">
+ &lt;a class="anchor" href="#10-%e6%a0%87%e7%ad%be%e9%a1%b5-tabstab"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="book-tabs"&gt;
 
  
-&lt;input type="radio" class="toggle" name="tabs-9" id="tabs-9-0" checked="checked" />
-&lt;label for="tabs-9-0">Tab 1&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">
+&lt;input type="radio" class="toggle" name="tabs-9" id="tabs-9-0" checked="checked" /&gt;
+&lt;label for="tabs-9-0"&gt;Tab 1&lt;/label&gt;
+&lt;div class="book-tabs-content markdown-inner"&gt;
  这是第一个标签页内容。
- &lt;/div>
+ &lt;/div&gt;
 
  
-&lt;input type="radio" class="toggle" name="tabs-9" id="tabs-9-1" />
-&lt;label for="tabs-9-1">Tab 2&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">
+&lt;input type="radio" class="toggle" name="tabs-9" id="tabs-9-1" /&gt;
+&lt;label for="tabs-9-1"&gt;Tab 2&lt;/label&gt;
+&lt;div class="book-tabs-content markdown-inner"&gt;
  这是第二个标签页内容。
- &lt;/div>
+ &lt;/div&gt;
 
 
-&lt;/div></description></item><item><title>Blog Feb</title><link>https://example.org/docs/sketch/prologue/blog/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/blog/</guid><description>&lt;h3 id="contents">
+&lt;/div&gt;</description></item><item><title>Blog Feb</title><link>https://example.org/docs/sketch/prologue/blog/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/blog/</guid><description>&lt;h3 id="contents"&gt;
  Contents
- &lt;a class="anchor" href="#contents">#&lt;/a>
-&lt;/h3>
-&lt;ul>
-&lt;li>有制作地图的意愿&lt;/li>
-&lt;li>了解社会的知识体系&lt;/li>
-&lt;li>选择感兴趣的行业&lt;/li>
-&lt;li>本质理解 长期积累&lt;/li>
-&lt;li>悦纳一切&lt;/li>
-&lt;/ul>
-&lt;h3 id="references">
+ &lt;a class="anchor" href="#contents"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;有制作地图的意愿&lt;/li&gt;
+&lt;li&gt;了解社会的知识体系&lt;/li&gt;
+&lt;li&gt;选择感兴趣的行业&lt;/li&gt;
+&lt;li&gt;本质理解 长期积累&lt;/li&gt;
+&lt;li&gt;悦纳一切&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="references"&gt;
  References
- &lt;a class="anchor" href="#references">#&lt;/a>
-&lt;/h3>
-&lt;p>&lt;a href="https://mp.weixin.qq.com/s/wBto0RuTTaZ3J3KYe90ZjQ">核动力喷火霸王龙 - 公众号&lt;/a> &lt;br>
-&lt;a href="https://www.zhihu.com/question/11463857483/answer/99091375822">袁牧 - 知乎 &lt;/a>&lt;br>
-&lt;a href="https://www.zhihu.com/question/444852842/answer/1754858002">布衣三尺剑 - 知乎&lt;/a>&lt;br>
-&lt;a href="https://www.zhihu.com/question/22988684/answer/239622153">橘猫太子 - 知乎&lt;/a>&lt;br>
-&lt;a href="https://www.zhihu.com/question/667475290/answer/6888881241">林为珮 - 知乎&lt;/a>&lt;/p>
-&lt;hr></description></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/prologue/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/carcaptor/</guid><description>&lt;h3 id="carcaptor">
+ &lt;a class="anchor" href="#references"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/wBto0RuTTaZ3J3KYe90ZjQ"&gt;核动力喷火霸王龙 - 公众号&lt;/a&gt; &lt;br&gt;
+&lt;a href="https://www.zhihu.com/question/11463857483/answer/99091375822"&gt;袁牧 - 知乎 &lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.zhihu.com/question/444852842/answer/1754858002"&gt;布衣三尺剑 - 知乎&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.zhihu.com/question/22988684/answer/239622153"&gt;橘猫太子 - 知乎&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.zhihu.com/question/667475290/answer/6888881241"&gt;林为珮 - 知乎&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</description></item><item><title>CarCaptor</title><link>https://example.org/docs/sketch/prologue/carcaptor/</link><pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/carcaptor/</guid><description>&lt;h3 id="carcaptor"&gt;
  CarCaptor
- &lt;a class="anchor" href="#carcaptor">#&lt;/a>
-&lt;/h3>
-&lt;pre>&lt;code>汽车领域Up主
+ &lt;a class="anchor" href="#carcaptor"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;汽车领域Up主
 分享汽车文化、汽车视角下的生活
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;p>汽车领域Up主
-分享汽车文化、汽车视角下的生活&lt;/p>
-&lt;p>那些汽车背后的故事，自何处起始，在怎样的过程中浸染着我们的生活，又将何以影响我们的未来。&lt;br>
-一个行业、一项事物，不止在我们看到ta们的时候影响我们的生活，也在人所不知处塑造着我们，ta既是无数人的工作所在，也能为我们提供观察世界的视角，这就足够成为一种圆满的生活范式了。&lt;/p>
-&lt;hr>
-&lt;p>&lt;a href="https://space.bilibili.com/1378987867/?spm_id_from=333.999.0.0">CarCapor - Bilibili&lt;/a>&lt;/p></description></item><item><title>天空没有极限</title><link>https://example.org/docs/sketch/poem/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90/</guid><description>&lt;h3 id="天空没有极限">
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;汽车领域Up主
+分享汽车文化、汽车视角下的生活&lt;/p&gt;
+&lt;p&gt;那些汽车背后的故事，自何处起始，在怎样的过程中浸染着我们的生活，又将何以影响我们的未来。&lt;br&gt;
+一个行业、一项事物，不止在我们看到ta们的时候影响我们的生活，也在人所不知处塑造着我们，ta既是无数人的工作所在，也能为我们提供观察世界的视角，这就足够成为一种圆满的生活范式了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="https://space.bilibili.com/1378987867/?spm_id_from=333.999.0.0"&gt;CarCapor - Bilibili&lt;/a&gt;&lt;/p&gt;</description></item><item><title>天空没有极限</title><link>https://example.org/docs/sketch/poem/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90/</guid><description>&lt;h3 id="天空没有极限"&gt;
  天空没有极限
- &lt;a class="anchor" href="#%e5%a4%a9%e7%a9%ba%e6%b2%a1%e6%9c%89%e6%9e%81%e9%99%90">#&lt;/a>
-&lt;/h3>
-&lt;h4 id="邓紫棋">
+ &lt;a class="anchor" href="#%e5%a4%a9%e7%a9%ba%e6%b2%a1%e6%9c%89%e6%9e%81%e9%99%90"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;h4 id="邓紫棋"&gt;
  邓紫棋
- &lt;a class="anchor" href="#%e9%82%93%e7%b4%ab%e6%a3%8b">#&lt;/a>
-&lt;/h4>
-&lt;p>当我好奇地乱敲着黑白的琴键&lt;br>
-当我躲在房间乐极忘形地表演&lt;br>
-你微笑的双眼 是否当时早有预感&lt;br>
-看到了今天&lt;/p>
-&lt;hr>
-&lt;p>当我没日没夜听着最爱的唱片&lt;br>
-当我书本每一页都画满了和弦&lt;br>
-你从不曾熄灭 我天真的火焰&lt;br>
-不怪我在浪费时间&lt;/p>
-&lt;hr>
-&lt;p>是你的无条件 成就了这一切&lt;br>
-是你让我看见&lt;/p>
-&lt;hr>
-&lt;p>天空没有极限 我的未来无边&lt;br>
-破茧的我会飞向更蔚蓝的明天&lt;br>
-前方路若遥远 回头看看从前&lt;br>
-看看镜子里的你带着曾经的我&lt;br>
-已走了多远&lt;/p>
-&lt;hr>
-&lt;p>多少次我心里浮现失控的画面&lt;br>
-多少冷言冷语汹涌地来到耳边&lt;br>
-多少夜失眠 你是否也曾度日如年&lt;br>
-差一点沦陷&lt;/p>
-&lt;hr>
-&lt;p>当我落寞地遥望着再来的春天&lt;br>
-当我默默地把眼泪流在心里面&lt;br>
-当一切违愿 谁不曾埋怨&lt;br>
-进退都在一念间&lt;/p>
-&lt;hr>
-&lt;p>但你却无条件 扛下了这一切&lt;br>
-是你让我看见&lt;/p>
-&lt;hr>
-&lt;p>&lt;strong>天空没有极限&lt;/strong> 我的未来无边&lt;br>
-破茧的我会飞向更蔚蓝的明天&lt;br>
-前方路若遥远 回头看看从前&lt;br>
-看看镜子里的你带着曾经的我&lt;br>
-已走了多远&lt;/p>
-&lt;hr>
-&lt;p>走了多远 多远 有多远 有多远&lt;br>
-看看从前 我已走了多远&lt;br>
-我的世界 我看不到边界&lt;/p>
-&lt;hr>
-&lt;p>&lt;strong>天空没有极限&lt;/strong> 我的未来无边&lt;br>
-破茧的我会飞向更蔚蓝的明天&lt;br>
-前方路若遥远 回头看看从前&lt;br>
-看看镜子里的你带着曾经的我&lt;br>
-已走了多远&lt;/p>
-&lt;hr>
-&lt;p>多少次我心里浮现失控的画面&lt;br>
-多少冷言冷语汹涌地来到耳边&lt;br>
-多少夜失眠 你是否也曾度日如年&lt;br>
-差一点沦陷&lt;/p>
-&lt;hr>
-&lt;p>当我落寞地遥望着再来的春天&lt;br>
-当我默默地把眼泪流在心里面&lt;br>
-当一切违愿 抬头看看蓝天&lt;br>
-&lt;strong>没有极限&lt;/strong>&lt;/p></description></item><item><title>工作和生活</title><link>https://example.org/docs/sketch/prologue/%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%94%9F%E6%B4%BB/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%94%9F%E6%B4%BB/</guid><description>&lt;p>&lt;img src="https://example.org/image/%e7%86%8a%e7%8c%ab-%e5%b7%a5%e4%bd%9c%e7%94%9f%e6%b4%bb.jpg" alt="alt text" />&lt;/p>
-&lt;p>人这一生需要创造一些作品，我们在作品上覆盖个人的色彩，也用作品解释自己、发现自己。&lt;/p>
-&lt;p>作品也同时接受别人的解读，我们借别人之眼重新回归作品，和别人眼中的自己相逢，作品似乎也成为自己的某种延伸，我们和作品一起发展、一起波动，去经历可贵的生活。&lt;/p>
-&lt;p>作品的逻辑是一种工作的逻辑，一种劳动的逻辑，必要的劳动是必须的，它有时也定义了我们的某个方面，像农作物之于农民，像歌曲之于歌手，像子女之于父母。&lt;/p>
-&lt;p>生活的逻辑是我们融入、我们体验，共担风雨，分享阳光。&lt;/p>
-&lt;p>我写下这些，是因为晚饭饭桌上听到家人的闲谈，我听到很多家常里不曾感受到的细微日常和感受，我觉得家人是普通的人，对我而言又是特殊的，这些触动是生活的逻辑，我以以上的写作方式叙述我所见的，希望这些字传到到屏幕之外的读者，这是工作的逻辑。&lt;/p></description></item><item><title>自己的方向</title><link>https://example.org/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%B9%E5%90%91/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%B9%E5%90%91/</guid><description>&lt;p>首先我想粗暴地给出一个定义，我们来到世界上，是为了看“花怎么开，水怎么流”，是体验一些人所共有的美好情感，走向自己的方向。那么我们何以定义“自己的方向”，我的理解是，你应当向好的方向走去，在此中倾听自己心里的声音，将好的方向向心里声音指引的方向延伸开去。因此问题变成了我们何以定义“好的方向”。&lt;/p>
-&lt;p>站在所有历史经验的肩膀上，向自己的方向迈出一小步，&lt;/p>
-&lt;p>站在所有历史经验的肩膀上应当是一个科学客观的过程，你要做好当下之事，“进步是今天的活动，明天的保证”，就像只有手心抵稳枪把，你才能&lt;/p></description></item><item><title>轮廓</title><link>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</link><pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</guid><description>&lt;pre>&lt;code>有时候我心里有一些词，词背后有各种意象，我试着将它们排序
-&lt;/code>&lt;/pre>
-&lt;ul>
-&lt;li>瓦片放逐&lt;/li>
-&lt;li>也无风雨也无晴&lt;/li>
-&lt;li>日本 冰岛 加拿大 挪威&lt;/li>
-&lt;li>杀死一只知更鸟&lt;/li>
-&lt;li>严肃活泼 实事求是&lt;/li>
-&lt;li>边城&lt;/li>
-&lt;li>父亲是很低的夕阳了&lt;/li>
-&lt;li>一个人的村庄&lt;/li>
-&lt;li>注入不应缺席的人文&lt;/li>
-&lt;li>the main thing is that I have fun&lt;/li>
-&lt;li>飞过一片时间海&lt;/li>
-&lt;li>和顺富足 自我表达 科技和现代化&lt;/li>
-&lt;li>感官至上&lt;/li>
-&lt;li>两级分化&lt;/li>
-&lt;/ul></description></item><item><title>松雅湖</title><link>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</guid><description>&lt;pre>&lt;code>长沙市，长沙县，松雅湖
+ &lt;a class="anchor" href="#%e9%82%93%e7%b4%ab%e6%a3%8b"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;当我好奇地乱敲着黑白的琴键&lt;br&gt;
+当我躲在房间乐极忘形地表演&lt;br&gt;
+你微笑的双眼 是否当时早有预感&lt;br&gt;
+看到了今天&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;当我没日没夜听着最爱的唱片&lt;br&gt;
+当我书本每一页都画满了和弦&lt;br&gt;
+你从不曾熄灭 我天真的火焰&lt;br&gt;
+不怪我在浪费时间&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;是你的无条件 成就了这一切&lt;br&gt;
+是你让我看见&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;天空没有极限 我的未来无边&lt;br&gt;
+破茧的我会飞向更蔚蓝的明天&lt;br&gt;
+前方路若遥远 回头看看从前&lt;br&gt;
+看看镜子里的你带着曾经的我&lt;br&gt;
+已走了多远&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;多少次我心里浮现失控的画面&lt;br&gt;
+多少冷言冷语汹涌地来到耳边&lt;br&gt;
+多少夜失眠 你是否也曾度日如年&lt;br&gt;
+差一点沦陷&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;当我落寞地遥望着再来的春天&lt;br&gt;
+当我默默地把眼泪流在心里面&lt;br&gt;
+当一切违愿 谁不曾埋怨&lt;br&gt;
+进退都在一念间&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;但你却无条件 扛下了这一切&lt;br&gt;
+是你让我看见&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;天空没有极限&lt;/strong&gt; 我的未来无边&lt;br&gt;
+破茧的我会飞向更蔚蓝的明天&lt;br&gt;
+前方路若遥远 回头看看从前&lt;br&gt;
+看看镜子里的你带着曾经的我&lt;br&gt;
+已走了多远&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;走了多远 多远 有多远 有多远&lt;br&gt;
+看看从前 我已走了多远&lt;br&gt;
+我的世界 我看不到边界&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;天空没有极限&lt;/strong&gt; 我的未来无边&lt;br&gt;
+破茧的我会飞向更蔚蓝的明天&lt;br&gt;
+前方路若遥远 回头看看从前&lt;br&gt;
+看看镜子里的你带着曾经的我&lt;br&gt;
+已走了多远&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;多少次我心里浮现失控的画面&lt;br&gt;
+多少冷言冷语汹涌地来到耳边&lt;br&gt;
+多少夜失眠 你是否也曾度日如年&lt;br&gt;
+差一点沦陷&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;当我落寞地遥望着再来的春天&lt;br&gt;
+当我默默地把眼泪流在心里面&lt;br&gt;
+当一切违愿 抬头看看蓝天&lt;br&gt;
+&lt;strong&gt;没有极限&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>工作和生活</title><link>https://example.org/docs/sketch/prologue/%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%94%9F%E6%B4%BB/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%94%9F%E6%B4%BB/</guid><description>&lt;p&gt;&lt;img src="https://example.org/image/%e7%86%8a%e7%8c%ab-%e5%b7%a5%e4%bd%9c%e7%94%9f%e6%b4%bb.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;人这一生需要创造一些作品，我们在作品上覆盖个人的色彩，也用作品解释自己、发现自己。&lt;/p&gt;
+&lt;p&gt;作品也同时接受别人的解读，我们借别人之眼重新回归作品，和别人眼中的自己相逢，作品似乎也成为自己的某种延伸，我们和作品一起发展、一起波动，去经历可贵的生活。&lt;/p&gt;
+&lt;p&gt;作品的逻辑是一种工作的逻辑，一种劳动的逻辑，必要的劳动是必须的，它有时也定义了我们的某个方面，像农作物之于农民，像歌曲之于歌手，像子女之于父母。&lt;/p&gt;
+&lt;p&gt;生活的逻辑是我们融入、我们体验，共担风雨，分享阳光。&lt;/p&gt;
+&lt;p&gt;我写下这些，是因为晚饭饭桌上听到家人的闲谈，我听到很多家常里不曾感受到的细微日常和感受，我觉得家人是普通的人，对我而言又是特殊的，这些触动是生活的逻辑，我以以上的写作方式叙述我所见的，希望这些字传到到屏幕之外的读者，这是工作的逻辑。&lt;/p&gt;</description></item><item><title>自己的方向</title><link>https://example.org/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%B9%E5%90%91/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%B9%E5%90%91/</guid><description>&lt;p&gt;首先我想粗暴地给出一个定义，我们来到世界上，是为了看“花怎么开，水怎么流”，是体验一些人所共有的美好情感，走向自己的方向。那么我们何以定义“自己的方向”，我的理解是，你应当向好的方向走去，在此中倾听自己心里的声音，将好的方向向心里声音指引的方向延伸开去。因此问题变成了我们何以定义“好的方向”。&lt;/p&gt;
+&lt;p&gt;站在所有历史经验的肩膀上，向自己的方向迈出一小步，&lt;/p&gt;
+&lt;p&gt;站在所有历史经验的肩膀上应当是一个科学客观的过程，你要做好当下之事，“进步是今天的活动，明天的保证”，就像只有手心抵稳枪把，你才能&lt;/p&gt;</description></item><item><title>轮廓</title><link>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</link><pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/prologue/%E8%BD%AE%E5%BB%93/</guid><description>&lt;pre&gt;&lt;code&gt;有时候我心里有一些词，词背后有各种意象，我试着将它们排序
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;瓦片放逐&lt;/li&gt;
+&lt;li&gt;也无风雨也无晴&lt;/li&gt;
+&lt;li&gt;日本 冰岛 加拿大 挪威&lt;/li&gt;
+&lt;li&gt;杀死一只知更鸟&lt;/li&gt;
+&lt;li&gt;严肃活泼 实事求是&lt;/li&gt;
+&lt;li&gt;边城&lt;/li&gt;
+&lt;li&gt;父亲是很低的夕阳了&lt;/li&gt;
+&lt;li&gt;一个人的村庄&lt;/li&gt;
+&lt;li&gt;注入不应缺席的人文&lt;/li&gt;
+&lt;li&gt;the main thing is that I have fun&lt;/li&gt;
+&lt;li&gt;飞过一片时间海&lt;/li&gt;
+&lt;li&gt;和顺富足 自我表达 科技和现代化&lt;/li&gt;
+&lt;li&gt;感官至上&lt;/li&gt;
+&lt;li&gt;两级分化&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>松雅湖</title><link>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%9D%BE%E9%9B%85%E6%B9%96/</guid><description>&lt;pre&gt;&lt;code&gt;长沙市，长沙县，松雅湖
 2025-02-07
-&lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%961.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%962.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%963.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%964.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%965.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%966.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%967.jpg" alt="alt text" />&lt;/p></description></item><item><title>湖南省博</title><link>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</guid><description>&lt;pre>&lt;code>长沙市，开福区，省博物馆
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%961.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%962.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%963.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%964.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%965.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%966.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e6%9d%be%e9%9b%85%e6%b9%967.jpg" alt="alt text" /&gt;&lt;/p&gt;</description></item><item><title>湖南省博</title><link>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E6%B9%96%E5%8D%97%E7%9C%81%E5%8D%9A/</guid><description>&lt;pre&gt;&lt;code&gt;长沙市，开福区，省博物馆
 2025-02-14
 
 看到前言里写道：谨以此献给曾经、现在、将来在湖南这片土地上生活、游历、以及对湖南历史文化发展起到推进作用的人。
 我突然觉得心潮澎湃，说不定未来某某一天，我多少也能成为这句话的一部分，这种感觉还是很不错的。
-&lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a1.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a2.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a3.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a4.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a5.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a6.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a7.jpg" alt="alt text" />&lt;/p></description></item><item><title>吴伏七村</title><link>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</guid><description>&lt;pre>&lt;code>黄冈市，武穴市，梅川镇吴伏七村
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a1.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a2.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a3.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a4.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a5.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a6.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/%e7%9c%81%e5%8d%9a7.jpg" alt="alt text" /&gt;&lt;/p&gt;</description></item><item><title>吴伏七村</title><link>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/photograph/%E5%90%B4%E4%BC%8F%E4%B8%83%E6%9D%91/</guid><description>&lt;pre&gt;&lt;code&gt;黄冈市，武穴市，梅川镇吴伏七村
 2025-02-07
-&lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://example.org/image/3.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/4.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/5.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/6.jpg" alt="alt text" />&lt;/p>
-&lt;p>&lt;img src="https://example.org/image/7.jpg" alt="alt text" />&lt;/p></description></item><item><title>水调歌头·黄州快哉亭赠张偓佺</title><link>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</guid><description>&lt;h3 id="水调歌头黄州快哉亭赠张偓佺">
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/3.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/4.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/5.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/6.jpg" alt="alt text" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://example.org/image/7.jpg" alt="alt text" /&gt;&lt;/p&gt;</description></item><item><title>水调歌头·黄州快哉亭赠张偓佺</title><link>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E9%BB%84%E5%B7%9E%E5%BF%AB%E5%93%89%E4%BA%AD%E8%B5%A0%E5%BC%A0%E5%81%93%E4%BD%BA/</guid><description>&lt;h3 id="水调歌头黄州快哉亭赠张偓佺"&gt;
  《水调歌头·黄州快哉亭赠张偓佺》
- &lt;a class="anchor" href="#%e6%b0%b4%e8%b0%83%e6%ad%8c%e5%a4%b4%e9%bb%84%e5%b7%9e%e5%bf%ab%e5%93%89%e4%ba%ad%e8%b5%a0%e5%bc%a0%e5%81%93%e4%bd%ba">#&lt;/a>
-&lt;/h3>
-&lt;h4 id="苏轼">
+ &lt;a class="anchor" href="#%e6%b0%b4%e8%b0%83%e6%ad%8c%e5%a4%b4%e9%bb%84%e5%b7%9e%e5%bf%ab%e5%93%89%e4%ba%ad%e8%b5%a0%e5%bc%a0%e5%81%93%e4%bd%ba"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;h4 id="苏轼"&gt;
  苏轼
- &lt;a class="anchor" href="#%e8%8b%8f%e8%bd%bc">#&lt;/a>
-&lt;/h4>
-&lt;p>落日绣帘卷，亭下水连空。知君为我新作，窗户湿青红。&lt;br>
-长记平山堂上，欹枕江南烟雨，杳杳没孤鸿。认得醉翁语，“山色有无中”。　&lt;/p>
-&lt;p>一千顷，都镜净，倒碧峰。忽然浪起，掀舞一叶白头翁。&lt;br>
-堪笑兰台公子，未解庄生天籁，刚道有雌雄。一点浩然气，千里快哉风。&lt;/p></description></item><item><title>洛阳桥</title><link>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</guid><description>&lt;h3 id="洛阳桥">
+ &lt;a class="anchor" href="#%e8%8b%8f%e8%bd%bc"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;落日绣帘卷，亭下水连空。知君为我新作，窗户湿青红。&lt;br&gt;
+长记平山堂上，欹枕江南烟雨，杳杳没孤鸿。认得醉翁语，“山色有无中”。　&lt;/p&gt;
+&lt;p&gt;一千顷，都镜净，倒碧峰。忽然浪起，掀舞一叶白头翁。&lt;br&gt;
+堪笑兰台公子，未解庄生天籁，刚道有雌雄。一点浩然气，千里快哉风。&lt;/p&gt;</description></item><item><title>洛阳桥</title><link>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/sketch/poem/%E6%B4%9B%E9%98%B3%E6%A1%A5/</guid><description>&lt;h3 id="洛阳桥"&gt;
  洛阳桥
- &lt;a class="anchor" href="#%e6%b4%9b%e9%98%b3%e6%a1%a5">#&lt;/a>
-&lt;/h3>
-&lt;h4 id="余光中">
+ &lt;a class="anchor" href="#%e6%b4%9b%e9%98%b3%e6%a1%a5"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;h4 id="余光中"&gt;
  余光中
- &lt;a class="anchor" href="#%e4%bd%99%e5%85%89%e4%b8%ad">#&lt;/a>
-&lt;/h4>
-&lt;p>刺桐花开了多少个春天&lt;br>
-东西塔对望究竟多少年&lt;br>
-多少人走过了洛阳桥&lt;br>
-多少船驶出了泉州湾&lt;/p>
-&lt;hr>
-&lt;p>现在轮到我走上桥来&lt;br>
-从桥头的古榕步向北岸&lt;br>
-从蔡公祠步向蔡公石像&lt;br>
-一脚踏上了北宋年间&lt;/p>
-&lt;hr>
-&lt;p>当初年轻的父亲或许&lt;br>
-也带过我，六岁的稚气&lt;br>
-温厚的大手牵着小手&lt;br>
-从南岸走向石桥的那头&lt;/p>
-&lt;hr>
-&lt;p>或许母亲更年轻，曾经&lt;br>
-和父亲一同将我牵牢&lt;br>
-一左一右，带我在中间&lt;br>
-三个人走过了洛阳桥&lt;/p>
-&lt;hr>
-&lt;p>想必蔡公，造桥人自己&lt;br>
-当年曾领先走过此桥&lt;br>
-多感动啊，泉州人随后&lt;br>
-逍遥地越过洛江滔滔&lt;/p>
-&lt;hr>
-&lt;p>越过洛江无情的滔滔&lt;br>
-弘一的芒鞋，俞大猷的马靴&lt;br>
-惠安女绣花鞋的软步&lt;br>
-都踏过普渡的洛阳桥&lt;/p>
-&lt;hr>
-&lt;p>潮起潮落，年去年来&lt;br>
-匆匆过桥，一代又一代&lt;br>
-有的，急急于赶路，有的&lt;br>
-在扶栏与望柱间徘徊&lt;/p>
-&lt;hr>
-&lt;p>最后是我，晚归的诗翁&lt;br>
-一千零六十步，叠叠重重&lt;br>
-想叠上母亲、父亲的脚印&lt;br>
-叠上泉州人千年的跫音&lt;/p>
-&lt;hr>
-&lt;p>但桥上的七亭九塔，桥下&lt;br>
-的石墩，墩上累累的牡蛎&lt;br>
-怎认得我呢，一个浪子&lt;br>
-少小离家，回首已耄耋&lt;/p>
-&lt;hr>
-&lt;p>刺桐花开了多少个四月&lt;br>
-东西塔依旧矗立不倒&lt;br>
-江水东流，海波倒灌&lt;br>
-多少人走过了洛阳桥&lt;/p></description></item><item><title>塑造生活</title><link>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</link><pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</guid><description>&lt;h3 id="支持的力量">
+ &lt;a class="anchor" href="#%e4%bd%99%e5%85%89%e4%b8%ad"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;刺桐花开了多少个春天&lt;br&gt;
+东西塔对望究竟多少年&lt;br&gt;
+多少人走过了洛阳桥&lt;br&gt;
+多少船驶出了泉州湾&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;现在轮到我走上桥来&lt;br&gt;
+从桥头的古榕步向北岸&lt;br&gt;
+从蔡公祠步向蔡公石像&lt;br&gt;
+一脚踏上了北宋年间&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;当初年轻的父亲或许&lt;br&gt;
+也带过我，六岁的稚气&lt;br&gt;
+温厚的大手牵着小手&lt;br&gt;
+从南岸走向石桥的那头&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;或许母亲更年轻，曾经&lt;br&gt;
+和父亲一同将我牵牢&lt;br&gt;
+一左一右，带我在中间&lt;br&gt;
+三个人走过了洛阳桥&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;想必蔡公，造桥人自己&lt;br&gt;
+当年曾领先走过此桥&lt;br&gt;
+多感动啊，泉州人随后&lt;br&gt;
+逍遥地越过洛江滔滔&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;越过洛江无情的滔滔&lt;br&gt;
+弘一的芒鞋，俞大猷的马靴&lt;br&gt;
+惠安女绣花鞋的软步&lt;br&gt;
+都踏过普渡的洛阳桥&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;潮起潮落，年去年来&lt;br&gt;
+匆匆过桥，一代又一代&lt;br&gt;
+有的，急急于赶路，有的&lt;br&gt;
+在扶栏与望柱间徘徊&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;最后是我，晚归的诗翁&lt;br&gt;
+一千零六十步，叠叠重重&lt;br&gt;
+想叠上母亲、父亲的脚印&lt;br&gt;
+叠上泉州人千年的跫音&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;但桥上的七亭九塔，桥下&lt;br&gt;
+的石墩，墩上累累的牡蛎&lt;br&gt;
+怎认得我呢，一个浪子&lt;br&gt;
+少小离家，回首已耄耋&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;刺桐花开了多少个四月&lt;br&gt;
+东西塔依旧矗立不倒&lt;br&gt;
+江水东流，海波倒灌&lt;br&gt;
+多少人走过了洛阳桥&lt;/p&gt;</description></item><item><title>塑造生活</title><link>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</link><pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E5%A4%A7%E9%81%93%E7%90%86/</guid><description>&lt;h3 id="支持的力量"&gt;
  支持的力量
- &lt;a class="anchor" href="#%e6%94%af%e6%8c%81%e7%9a%84%e5%8a%9b%e9%87%8f">#&lt;/a>
-&lt;/h3>
-&lt;p>关于“想要”和“做”，知乎答主&lt;a href="https://www.zhihu.com/people/zhu-xuan-86">朱炫&lt;/a>有这样的回答(&lt;a href="https://www.zhihu.com/question/290003248/answer/474646656?utm_psn=1855301688187035649">原回答&lt;/a>)：&lt;/p>
-&lt;blockquote>
-&lt;p>人的生活，不是说，我想活成什么样，然后我脑袋一震，变身，巴拉巴拉，我就变成这个逼样了，不是的。这也是为什么大多数人每次想改变自己的生活，往往徒劳无功，他们只是倾向于模仿旁人生活中那些光彩的部分。&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>看见艺术家的洒脱，就想学洒脱，看见政治家的威风，就想学威风。这样的模仿仅仅是无根之水，最终就是生活回到老模样，该怎样，就怎样。&lt;/p>&lt;/blockquote>
-&lt;p>我的理解是，想去做和实际去做并让去做的实践过程构成你的生活这两者之间，其实有着很大的区别。前者支持的力量来自社会的氛围感染，后者支持的力量则更多来自实践过程本身带来的乐趣。&lt;/p>
-&lt;p>换言之，能否在没有他人认同的情况下，安心投入一项实践，从这项实践中获得无关认同的乐趣、并让这份乐趣对冲身体和大脑的疲劳，这是我们在决定是否进入一项实践前需要仔细考虑的问题。&lt;/p>
-&lt;p>有时我在想，我为什么而工作，是认同（或者说责任心）还是乐趣。我不知道这两点是否仍然有些片面，但至少当下的我认为，更多是乐趣。因为乐趣对应着具体可感的微小正反馈，也是一些治疗拖延的观点中认为的提高做事积极性的关键所在，我们并不生活在一些宏大叙事中，但却一定生活在具体的感受里。&lt;/p>
-&lt;p>所以面对一些想做而未成行的事，最好的做法还是如先前知乎回答所说：&lt;/p>
-&lt;blockquote>
-&lt;p>我自己的建议是，如果你想改善自己的生活，最好先去找一个目的，比如你想活的像画家那样洒脱，那你最好就先想着画出一幅画。&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>因为大部分人的生活，实际是我想做一件什么事，然后我做这个事的过程，成了我的生活。当你辛辛苦苦的画完这幅画，从学画到磨练到日夜敏思苦想，你自然就会变得像画家那样看待事情，变得洒脱，但同时你也品尝到了画家的痛苦。&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>这就是我们塑造一种生活的方法。&lt;/p>&lt;/blockquote></description></item><item><title>新一年</title><link>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</guid><description>&lt;h3 id="几件事情">
+ &lt;a class="anchor" href="#%e6%94%af%e6%8c%81%e7%9a%84%e5%8a%9b%e9%87%8f"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;关于“想要”和“做”，知乎答主&lt;a href="https://www.zhihu.com/people/zhu-xuan-86"&gt;朱炫&lt;/a&gt;有这样的回答(&lt;a href="https://www.zhihu.com/question/290003248/answer/474646656?utm_psn=1855301688187035649"&gt;原回答&lt;/a&gt;)：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人的生活，不是说，我想活成什么样，然后我脑袋一震，变身，巴拉巴拉，我就变成这个逼样了，不是的。这也是为什么大多数人每次想改变自己的生活，往往徒劳无功，他们只是倾向于模仿旁人生活中那些光彩的部分。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;看见艺术家的洒脱，就想学洒脱，看见政治家的威风，就想学威风。这样的模仿仅仅是无根之水，最终就是生活回到老模样，该怎样，就怎样。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我的理解是，想去做和实际去做并让去做的实践过程构成你的生活这两者之间，其实有着很大的区别。前者支持的力量来自社会的氛围感染，后者支持的力量则更多来自实践过程本身带来的乐趣。&lt;/p&gt;
+&lt;p&gt;换言之，能否在没有他人认同的情况下，安心投入一项实践，从这项实践中获得无关认同的乐趣、并让这份乐趣对冲身体和大脑的疲劳，这是我们在决定是否进入一项实践前需要仔细考虑的问题。&lt;/p&gt;
+&lt;p&gt;有时我在想，我为什么而工作，是认同（或者说责任心）还是乐趣。我不知道这两点是否仍然有些片面，但至少当下的我认为，更多是乐趣。因为乐趣对应着具体可感的微小正反馈，也是一些治疗拖延的观点中认为的提高做事积极性的关键所在，我们并不生活在一些宏大叙事中，但却一定生活在具体的感受里。&lt;/p&gt;
+&lt;p&gt;所以面对一些想做而未成行的事，最好的做法还是如先前知乎回答所说：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我自己的建议是，如果你想改善自己的生活，最好先去找一个目的，比如你想活的像画家那样洒脱，那你最好就先想着画出一幅画。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为大部分人的生活，实际是我想做一件什么事，然后我做这个事的过程，成了我的生活。当你辛辛苦苦的画完这幅画，从学画到磨练到日夜敏思苦想，你自然就会变得像画家那样看待事情，变得洒脱，但同时你也品尝到了画家的痛苦。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这就是我们塑造一种生活的方法。&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>新一年</title><link>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%96%B0%E4%B8%80%E5%B9%B4/</guid><description>&lt;h3 id="几件事情"&gt;
  几件事情
- &lt;a class="anchor" href="#%e5%87%a0%e4%bb%b6%e4%ba%8b%e6%83%85">#&lt;/a>
-&lt;/h3>
-&lt;p>在一年里少有的寒假休息时间，我没有和放假前想的那样，能用很多时间做一些自己喜欢的事情，那些在时间宝贵的日子里吸引着我的事情没有在寒假里延续ta们的吸引。我突然发现，“我不知道做些什么好”。&lt;br>
-在信息充裕的当下，我觉得至少有几件事情可以理解：&lt;/p>
-&lt;ol>
-&lt;li>生活当然要有目标，但生活本身是由实现目标的过程撑起来的，我们生活在过程里，过程中的苦辣酸甜才成为生活本身&lt;/li>
-&lt;li>“知之者不如好之者，好之者不如乐之者”，是发乎内心的乐趣领着我们往前走，抵抗生活里的琐碎，内心的乐趣如同大数定律里的变量回归后的均值&lt;/li>
-&lt;li>实践好过空想&lt;/li>
-&lt;li>生活值得审视，借助规律和科学方法，我们可以找到一些更为宝贵的价值，它们关乎生命真正的体验。&lt;/li>
-&lt;/ol>
-&lt;h3 id="新的一年">
+ &lt;a class="anchor" href="#%e5%87%a0%e4%bb%b6%e4%ba%8b%e6%83%85"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;在一年里少有的寒假休息时间，我没有和放假前想的那样，能用很多时间做一些自己喜欢的事情，那些在时间宝贵的日子里吸引着我的事情没有在寒假里延续ta们的吸引。我突然发现，“我不知道做些什么好”。&lt;br&gt;
+在信息充裕的当下，我觉得至少有几件事情可以理解：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;生活当然要有目标，但生活本身是由实现目标的过程撑起来的，我们生活在过程里，过程中的苦辣酸甜才成为生活本身&lt;/li&gt;
+&lt;li&gt;“知之者不如好之者，好之者不如乐之者”，是发乎内心的乐趣领着我们往前走，抵抗生活里的琐碎，内心的乐趣如同大数定律里的变量回归后的均值&lt;/li&gt;
+&lt;li&gt;实践好过空想&lt;/li&gt;
+&lt;li&gt;生活值得审视，借助规律和科学方法，我们可以找到一些更为宝贵的价值，它们关乎生命真正的体验。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="新的一年"&gt;
  新的一年
- &lt;a class="anchor" href="#%e6%96%b0%e7%9a%84%e4%b8%80%e5%b9%b4">#&lt;/a>
-&lt;/h3>
-&lt;p>生活在于乐趣，乐趣来自实践，以我们的春节为单位，我还是希望自己能够每一个单位里尽可能地实践、在实践过程里理解生活。&lt;br>
-至少我想看到，每段时间都可以在我身上留下痕迹，这可以是生活最低的希望，但也是生活最高的要求。&lt;/p></description></item><item><title>无意击发</title><link>https://example.org/posts/%E6%97%A0%E6%84%8F%E5%87%BB%E5%8F%91/</link><pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%97%A0%E6%84%8F%E5%87%BB%E5%8F%91/</guid><description>&lt;p>无意击发&lt;/p>
-&lt;p>有时我觉得，假使再小的事，如果认真去看，认真去想，你也可以从里面看到很多东西，正是这些最细微的东西，会反复以某种形式出现在我们未来的生活中。&lt;/p>
-&lt;p>大三的手枪射击课上，带上最后的考核，我们总共实弹射击了四次，前面每次射击有两轮，每轮五发，不出意外的话，可以拿到十个弹眼，至少，也有五六个。&lt;/p>
-&lt;p>课上教员讲：有意瞄准，无意击发。我看着年纪挺大的教员，感觉一切都还是手拿把捏，……直到上场。上场后才发现，右手抖动得眼睛根本瞄不准。&lt;/p>
-&lt;p>结果毫不意外，前面几次课每次基本都是五中一、五中二，这种感觉也相当奇妙，你模糊地看到一个白圈，尽力控制手腕，听见砰的一声响，想立刻跑去看看是十环还是九环，但必须要忍住这份心情，等到五发完毕，教员喊到捡靶时，才能冲过去查看，然后发现偌大一张靶纸，只在边缘处能看到一到两个眼儿。&lt;/p>
-&lt;p>在连续几次五中一五中二，甚至还有一次五中零后，我才开始正经认识到有点不对劲，开始想到那句教员经常提到的“有意瞄准，无意击发”。在考核可能不及格（当时看可能大概率不及格）的情绪驱动下，我拿到空枪后，就拿对着墙上的靶子练瞄准，似乎进入到了所谓的“心流”的状态里。当所有人并列一排练习瞄准时，扳机声不绝于耳时，我只沉入在自己的世界里，瞄准—略用力—惊响，周而复始。&lt;/p>
-&lt;p>最后考核上，我出乎意料地很快打完了五发，在焦虑和平和混杂的情绪中，等待着拿下自己的靶纸，三发十环、两发九环，四十八环。&lt;/p>
-&lt;p>这种“失败—努力—思考—成功”的模式怎么想都是让人振奋的，考核完的几天里，我都感觉沉浸在喜悦中，这种喜悦也支持着我在最忙的大三学年中一点点排解各种负面情绪。&lt;/p>
-&lt;p>在之后的很多事情里，我才后知后觉到，“有意瞄准，无意击发”可能就是生活里很多事情的剪影。平常生活里，我们更多地在瞄准而非击发，如果为了最后的那一瞬击发而动作变形，弹着点大概率就会偏离瞄准点。&lt;/p>
-&lt;p>写下这些时，不远处枪声再起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是注视着三点一线，在瞄准中稍用力在右手食指上。过了不知道多久，听到砰一声响，虽然看不到，但心里已隐约明白，靶纸中间已经多了一个眼儿了。&lt;/p></description></item></channel></rss>
+ &lt;a class="anchor" href="#%e6%96%b0%e7%9a%84%e4%b8%80%e5%b9%b4"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;生活在于乐趣，乐趣来自实践，以我们的春节为单位，我还是希望自己能够每一个单位里尽可能地实践、在实践过程里理解生活。&lt;br&gt;
+至少我想看到，每段时间都可以在我身上留下痕迹，这可以是生活最低的希望，但也是生活最高的要求。&lt;/p&gt;</description></item><item><title>无意击发</title><link>https://example.org/posts/%E6%97%A0%E6%84%8F%E5%87%BB%E5%8F%91/</link><pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.org/posts/%E6%97%A0%E6%84%8F%E5%87%BB%E5%8F%91/</guid><description>&lt;p&gt;无意击发&lt;/p&gt;
+&lt;p&gt;有时我觉得，假使再小的事，如果认真去看，认真去想，你也可以从里面看到很多东西，正是这些最细微的东西，会反复以某种形式出现在我们未来的生活中。&lt;/p&gt;
+&lt;p&gt;大三的手枪射击课上，带上最后的考核，我们总共实弹射击了四次，前面每次射击有两轮，每轮五发，不出意外的话，可以拿到十个弹眼，至少，也有五六个。&lt;/p&gt;
+&lt;p&gt;课上教员讲：有意瞄准，无意击发。我看着年纪挺大的教员，感觉一切都还是手拿把捏，……直到上场。上场后才发现，右手抖动得眼睛根本瞄不准。&lt;/p&gt;
+&lt;p&gt;结果毫不意外，前面几次课每次基本都是五中一、五中二，这种感觉也相当奇妙，你模糊地看到一个白圈，尽力控制手腕，听见砰的一声响，想立刻跑去看看是十环还是九环，但必须要忍住这份心情，等到五发完毕，教员喊到捡靶时，才能冲过去查看，然后发现偌大一张靶纸，只在边缘处能看到一到两个眼儿。&lt;/p&gt;
+&lt;p&gt;在连续几次五中一五中二，甚至还有一次五中零后，我才开始正经认识到有点不对劲，开始想到那句教员经常提到的“有意瞄准，无意击发”。在考核可能不及格（当时看可能大概率不及格）的情绪驱动下，我拿到空枪后，就拿对着墙上的靶子练瞄准，似乎进入到了所谓的“心流”的状态里。当所有人并列一排练习瞄准时，扳机声不绝于耳时，我只沉入在自己的世界里，瞄准—略用力—惊响，周而复始。&lt;/p&gt;
+&lt;p&gt;最后考核上，我出乎意料地很快打完了五发，在焦虑和平和混杂的情绪中，等待着拿下自己的靶纸，三发十环、两发九环，四十八环。&lt;/p&gt;
+&lt;p&gt;这种“失败—努力—思考—成功”的模式怎么想都是让人振奋的，考核完的几天里，我都感觉沉浸在喜悦中，这种喜悦也支持着我在最忙的大三学年中一点点排解各种负面情绪。&lt;/p&gt;
+&lt;p&gt;在之后的很多事情里，我才后知后觉到，“有意瞄准，无意击发”可能就是生活里很多事情的剪影。平常生活里，我们更多地在瞄准而非击发，如果为了最后的那一瞬击发而动作变形，弹着点大概率就会偏离瞄准点。&lt;/p&gt;
+&lt;p&gt;写下这些时，不远处枪声再起，我意识到，我能做的，并不是祈祷瞄准和击发的时间足够短，能趁枪口不注意，把子弹送上弹道，而是注视着三点一线，在瞄准中稍用力在右手食指上。过了不知道多久，听到砰一声响，虽然看不到，但心里已隐约明白，靶纸中间已经多了一个眼儿了。&lt;/p&gt;</description></item></channel></rss>
