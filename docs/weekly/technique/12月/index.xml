@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>12月 on Zhangshen</title><link>https://example.org/docs/security/technique/12%E6%9C%88/</link><description>Recent content in 12月 on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/docs/security/technique/12%E6%9C%88/index.xml" rel="self" type="application/rss+xml"/><item><title>Fortigate指纹识别</title><link>https://example.org/docs/security/technique/12%E6%9C%88/fortigate%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/fortigate%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/</guid><description>&lt;blockquote class="book-hint info"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>12月 on Zhangshen</title><link>https://example.org/docs/weekly/technique/12%E6%9C%88/</link><description>Recent content in 12月 on Zhangshen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/docs/weekly/technique/12%E6%9C%88/index.xml" rel="self" type="application/rss+xml"/><item><title>Fortigate指纹识别</title><link>https://example.org/docs/weekly/technique/12%E6%9C%88/fortigate%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/weekly/technique/12%E6%9C%88/fortigate%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB/</guid><description>&lt;blockquote class="book-hint info"&gt;
  
 思路
 
@@ -7,7 +7,7 @@
 &lt;ol&gt;
 &lt;li&gt;在登录页Web UI中查找etag hash 和SSL证书等信息辅助判断版本型号&lt;/li&gt;
 &lt;li&gt;查release note，设计针对不同端口、不同协议的包得到有效响应，根据不同响应判断版本型号&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>PaddingOracel漏洞复现</title><link>https://example.org/docs/security/technique/12%E6%9C%88/paddingoracel%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/paddingoracel%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/</guid><description>&lt;blockquote class="book-hint info"&gt;
+&lt;/ol&gt;</description></item><item><title>PaddingOracel漏洞复现</title><link>https://example.org/docs/weekly/technique/12%E6%9C%88/paddingoracel%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/weekly/technique/12%E6%9C%88/paddingoracel%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/</guid><description>&lt;blockquote class="book-hint info"&gt;
  
 思路
 
@@ -16,7 +16,7 @@
 &lt;ol&gt;
 &lt;li&gt;在两台电脑端运行恶意攻击端和正常服务器端，攻击端连接恶意脚本，遍历尝试，根据服务器端响应结果判断遍历结果正确与否。&lt;/li&gt;
 &lt;li&gt;两台主机在不同网段下的私有地址，正常服务器端用ngrok内网穿透，将服务暴露在公网IP上。&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Linux命令</title><link>https://example.org/docs/security/technique/12%E6%9C%88/linux%E5%91%BD%E4%BB%A4/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/linux%E5%91%BD%E4%BB%A4/</guid><description>&lt;blockquote class="book-hint info"&gt;
+&lt;/ol&gt;</description></item><item><title>Linux命令</title><link>https://example.org/docs/weekly/technique/12%E6%9C%88/linux%E5%91%BD%E4%BB%A4/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/weekly/technique/12%E6%9C%88/linux%E5%91%BD%E4%BB%A4/</guid><description>&lt;blockquote class="book-hint info"&gt;
  
 Linux常用命令可以分为以下系列，每个系列针对不同的系统管理和操作任务
 
@@ -108,7 +108,7 @@ ip命令的各系列所在层
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;传输层（Transport Layer）：&lt;/p&gt;</description></item><item><title>Shortcode</title><link>https://example.org/docs/security/technique/12%E6%9C%88/example/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/security/technique/12%E6%9C%88/example/</guid><description>&lt;h1 id="hugo-book-shortcodes-使用示例"&gt;
+&lt;p&gt;传输层（Transport Layer）：&lt;/p&gt;</description></item><item><title>Shortcode</title><link>https://example.org/docs/weekly/technique/12%E6%9C%88/example/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://example.org/docs/weekly/technique/12%E6%9C%88/example/</guid><description>&lt;h1 id="hugo-book-shortcodes-使用示例"&gt;
  Hugo Book Shortcodes 使用示例
  &lt;a class="anchor" href="#hugo-book-shortcodes-%e4%bd%bf%e7%94%a8%e7%a4%ba%e4%be%8b"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
